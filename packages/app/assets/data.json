@@ -1,0 +1,2232 @@
+[
+  {
+    "state": "SA",
+    "name": "Adelaide",
+    "identifier": "YPAD",
+    "taf": true,
+    "taf3": true,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 8150 3800"
+  },
+  {
+    "state": "SA",
+    "name": "Adelaide (Paraﬁeld)",
+    "identifier": "YPPF",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 8150 3813"
+  },
+  {
+    "state": "WA",
+    "name": "Albany",
+    "identifier": "YABA",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2600"
+  },
+  {
+    "state": "NSW",
+    "name": "Albury",
+    "identifier": "YMAY",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6400"
+  },
+  {
+    "state": "NT",
+    "name": "Alice Springs",
+    "identifier": "YBAS",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 7922 2500"
+  },
+  {
+    "state": "QLD",
+    "name": "Amberley",
+    "identifier": "YAMB",
+    "taf": true,
+    "taf3": true,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3700"
+  },
+  {
+    "state": "WA",
+    "name": "Argyle",
+    "identifier": "YARG",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2601"
+  },
+  {
+    "state": "NSW",
+    "name": "Armidale",
+    "identifier": "YARM",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6401"
+  },
+  {
+    "state": "VIC",
+    "name": "Avalon",
+    "identifier": "YMAV",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 8470 3200"
+  },
+  {
+    "state": "NT",
+    "name": "Ayers Rock Connellan (Yulara)",
+    "identifier": "YAYE",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 7922 2516"
+  },
+  {
+    "state": "VIC",
+    "name": "Bairnsdale",
+    "identifier": "YBNS",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 8470 3201"
+  },
+  {
+    "state": "VIC",
+    "name": "Ballarat",
+    "identifier": "YBLT",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 8470 3202"
+  },
+  {
+    "state": "QLD",
+    "name": "Ballera",
+    "identifier": "YLLE",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3702"
+  },
+  {
+    "state": "NSW",
+    "name": "Ballina (Byron Gateway)",
+    "identifier": "YBNA",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6402"
+  },
+  {
+    "state": "WA",
+    "name": "Barrow Island",
+    "identifier": "YBWX",
+    "taf": true,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 6216 2602"
+  },
+  {
+    "state": "NSW",
+    "name": "Bathurst",
+    "identifier": "YBTH",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6404"
+  },
+  {
+    "state": "VIC",
+    "name": "Bendigo",
+    "identifier": "YBDG",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 8470 3203"
+  },
+  {
+    "state": "QLD",
+    "name": "Birdsville",
+    "identifier": "YBDV",
+    "taf": true,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(07) 3564 3703"
+  },
+  {
+    "state": "QLD",
+    "name": "Blackall",
+    "identifier": "YBCK",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(07) 3564 3704"
+  },
+  {
+    "state": "NT",
+    "name": "Borroloola",
+    "identifier": "YBRL",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 7922 2502"
+  },
+  {
+    "state": "NSW",
+    "name": "Bourke",
+    "identifier": "YBKE",
+    "taf": true,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(02) 9353 6405"
+  },
+  {
+    "state": "QLD",
+    "name": "Brisbane",
+    "identifier": "YBBN",
+    "taf": true,
+    "taf3": true,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3705"
+  },
+  {
+    "state": "QLD",
+    "name": "Brisbane (Archerﬁeld)",
+    "identifier": "YBAF",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3701"
+  },
+  {
+    "state": "QLD",
+    "name": "Brisbane West Wellcamp",
+    "identifier": "YBWW",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3746"
+  },
+  {
+    "state": "NSW",
+    "name": "Broken Hill",
+    "identifier": "YBHI",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6406"
+  },
+  {
+    "state": "WA",
+    "name": "Broome INTL",
+    "identifier": "YBRM",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2603"
+  },
+  {
+    "state": "QLD",
+    "name": "Bundaberg",
+    "identifier": "YBUD",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3706"
+  },
+  {
+    "state": "QLD",
+    "name": "Burketown",
+    "identifier": "YBKT",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3707"
+  },
+  {
+    "state": "WA",
+    "name": "Busselton",
+    "identifier": "YBLN",
+    "taf": true,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 6216 2604"
+  },
+  {
+    "state": "QLD",
+    "name": "Cairns (Cairns INTL)",
+    "identifier": "YBCS",
+    "taf": true,
+    "taf3": true,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3708"
+  },
+  {
+    "state": "NSW",
+    "name": "Camden",
+    "identifier": "YSCN",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6407"
+  },
+  {
+    "state": "NSW",
+    "name": "Canberra",
+    "identifier": "YSCB",
+    "taf": true,
+    "taf3": true,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6408"
+  },
+  {
+    "state": "WA",
+    "name": "Carnarvon",
+    "identifier": "YCAR",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2605"
+  },
+  {
+    "state": "NSW",
+    "name": "Casino",
+    "identifier": "YCAS",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(02) 9353 6409"
+  },
+  {
+    "state": "SA",
+    "name": "Ceduna",
+    "identifier": "YCDU",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 8150 3801"
+  },
+  {
+    "state": "QLD",
+    "name": "Century Mine",
+    "identifier": "YCNY",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(07) 3564 3709"
+  },
+  {
+    "state": "NSW",
+    "name": "Cessnock",
+    "identifier": "YCNK",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(02) 9353 6410"
+  },
+  {
+    "state": "QLD",
+    "name": "Charleville",
+    "identifier": "YBCV",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3710"
+  },
+  {
+    "state": "QLD",
+    "name": "Chinchilla",
+    "identifier": "YCCA",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 4662 7582"
+  },
+  {
+    "state": "SA",
+    "name": "Cleve",
+    "identifier": "YCEE",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 8150 3802"
+  },
+  {
+    "state": "QLD",
+    "name": "Cloncurry",
+    "identifier": "YCCY",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3711"
+  },
+  {
+    "state": "NSW",
+    "name": "Cobar",
+    "identifier": "YCBA",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6411"
+  },
+  {
+    "state": "WA",
+    "name": "Cocos (Keeling) Islands",
+    "identifier": "YPCC",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2607"
+  },
+  {
+    "state": "NSW",
+    "name": "Coffs Harbour",
+    "identifier": "YCFS",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6412"
+  },
+  {
+    "state": "VIC",
+    "name": "Coldstream",
+    "identifier": "YCEM",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(03) 8470 3205"
+  },
+  {
+    "state": "NSW",
+    "name": "Condobolin",
+    "identifier": "YCDO",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(02) 9353 6413"
+  },
+  {
+    "state": "SA",
+    "name": "Coober Pedy",
+    "identifier": "YCBP",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 8150 3803"
+  },
+  {
+    "state": "QLD",
+    "name": "Cooktown",
+    "identifier": "YCKN",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3712"
+  },
+  {
+    "state": "NSW",
+    "name": "Cooma (Snowy Mountains)",
+    "identifier": "YCOM",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6414"
+  },
+  {
+    "state": "NSW",
+    "name": "Coonabarabran",
+    "identifier": "YCBB",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6415"
+  },
+  {
+    "state": "NSW",
+    "name": "Coonamble",
+    "identifier": "YCNM",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(02) 9353 6416"
+  },
+  {
+    "state": "NSW",
+    "name": "Cowra",
+    "identifier": "YCWR",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(02) 9353 6417"
+  },
+  {
+    "state": "SA",
+    "name": "Cummins Town",
+    "identifier": "YCMM",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 8150 3804"
+  },
+  {
+    "state": "WA",
+    "name": "Cunderdin",
+    "identifier": "YCUN",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2608"
+  },
+  {
+    "state": "WA",
+    "name": "Curtin",
+    "identifier": "YCIN",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2609"
+  },
+  {
+    "state": "NT",
+    "name": "Darwin",
+    "identifier": "YPDN",
+    "taf": true,
+    "taf3": true,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 7922 2503"
+  },
+  {
+    "state": "NSW",
+    "name": "Deniliquin",
+    "identifier": "YDLQ",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(02) 9353 6418"
+  },
+  {
+    "state": "WA",
+    "name": "Derby",
+    "identifier": "YDBY",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2610"
+  },
+  {
+    "state": "TAS",
+    "name": "Devonport",
+    "identifier": "YDPO",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 6283 8600"
+  },
+  {
+    "state": "NSW",
+    "name": "Dubbo",
+    "identifier": "YSDU",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6419"
+  },
+  {
+    "state": "VIC",
+    "name": "East Sale",
+    "identifier": "YMES",
+    "taf": true,
+    "taf3": true,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 8470 3206"
+  },
+  {
+    "state": "SA",
+    "name": "Edinburgh",
+    "identifier": "YPED",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 8150 3805"
+  },
+  {
+    "state": "QLD",
+    "name": "Emerald",
+    "identifier": "YEML",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3714"
+  },
+  {
+    "state": "SA",
+    "name": "Ernabella (Pukatja)",
+    "identifier": "YERN",
+    "taf": true,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 8150 3816"
+  },
+  {
+    "state": "WA",
+    "name": "Esperance",
+    "identifier": "YESP",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2611"
+  },
+  {
+    "state": "WA",
+    "name": "Fitzroy Crossing",
+    "identifier": "YFTZ",
+    "taf": true,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 6216 2612"
+  },
+  {
+    "state": "TAS",
+    "name": "Flinders Island",
+    "identifier": "YFLI",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 6283 8601"
+  },
+  {
+    "state": "NSW",
+    "name": "Forbes",
+    "identifier": "YFBS",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(02) 9353 6420"
+  },
+  {
+    "state": "WA",
+    "name": "Forrest",
+    "identifier": "YFRT",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2613"
+  },
+  {
+    "state": "WA",
+    "name": "Geraldton",
+    "identifier": "YGEL",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2615"
+  },
+  {
+    "state": "WA",
+    "name": "Gingin",
+    "identifier": "YGIG",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 6216 2616"
+  },
+  {
+    "state": "QLD",
+    "name": "Gladstone",
+    "identifier": "YGLA",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3715"
+  },
+  {
+    "state": "NSW",
+    "name": "Glen Innes",
+    "identifier": "YGLI",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6421"
+  },
+  {
+    "state": "QLD",
+    "name": "Gold Coast",
+    "identifier": "YBCG",
+    "taf": true,
+    "taf3": true,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3713"
+  },
+  {
+    "state": "NSW",
+    "name": "Goulburn",
+    "identifier": "YGLB",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6422"
+  },
+  {
+    "state": "NT",
+    "name": "Gove",
+    "identifier": "YPGV",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 7922 2505"
+  },
+  {
+    "state": "NSW",
+    "name": "Grafton",
+    "identifier": "YGFN",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6423"
+  },
+  {
+    "state": "NSW",
+    "name": "Grifﬁth",
+    "identifier": "YGTH",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6424"
+  },
+  {
+    "state": "NT",
+    "name": "Groote Eylandt",
+    "identifier": "YGTE",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 7922 2506"
+  },
+  {
+    "state": "NSW",
+    "name": "Gunnedah",
+    "identifier": "YGDH",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(02) 9353 6425"
+  },
+  {
+    "state": "WA",
+    "name": "Halls Creek",
+    "identifier": "YHLC",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2617"
+  },
+  {
+    "state": "VIC",
+    "name": "Hamilton",
+    "identifier": "YHML",
+    "taf": true,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(03) 8470 3208"
+  },
+  {
+    "state": "QLD",
+    "name": "Hamilton Island",
+    "identifier": "YBHM",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3716"
+  },
+  {
+    "state": "NSW",
+    "name": "Hay",
+    "identifier": "YHAY",
+    "taf": false,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6426"
+  },
+  {
+    "state": "QLD",
+    "name": "Hervey Bay",
+    "identifier": "YHBA",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3717"
+  },
+  {
+    "state": "TAS",
+    "name": "Hobart",
+    "identifier": "YMHB",
+    "taf": true,
+    "taf3": true,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 6283 8602"
+  },
+  {
+    "state": "NSW",
+    "name": "Holsworthy",
+    "identifier": "YSHW",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6427"
+  },
+  {
+    "state": "NT",
+    "name": "Hooker Creek (Lajamanu)",
+    "identifier": "YHOO",
+    "taf": true,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 7922 2508"
+  },
+  {
+    "state": "QLD",
+    "name": "Horn Island",
+    "identifier": "YHID",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3718"
+  },
+  {
+    "state": "VIC",
+    "name": "Horsham",
+    "identifier": "YHSM",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 8470 3209"
+  },
+  {
+    "state": "QLD",
+    "name": "Hughenden",
+    "identifier": "YHUG",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3719"
+  },
+  {
+    "state": "NSW",
+    "name": "Ivanhoe",
+    "identifier": "YIVO",
+    "taf": true,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(02) 9353 6428"
+  },
+  {
+    "state": "NT",
+    "name": "Jabiru",
+    "identifier": "YJAB",
+    "taf": true,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 7922 2507"
+  },
+  {
+    "state": "WA",
+    "name": "Kalgoorlie Boulder",
+    "identifier": "YPKG",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2619"
+  },
+  {
+    "state": "WA",
+    "name": "Karratha",
+    "identifier": "YPKA",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2620"
+  },
+  {
+    "state": "NSW",
+    "name": "Kempsey",
+    "identifier": "YKMP",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(02) 9353 6430"
+  },
+  {
+    "state": "VIC",
+    "name": "Kilmore Gap",
+    "identifier": "KMG",
+    "taf": false,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 8470 3210"
+  },
+  {
+    "state": "TAS",
+    "name": "King Island",
+    "identifier": "YKII",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 6283 8603"
+  },
+  {
+    "state": "QLD",
+    "name": "Kingaroy",
+    "identifier": "YKRY",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3720"
+  },
+  {
+    "state": "SA",
+    "name": "Kingscote (Kangaroo Island)",
+    "identifier": "YKSC",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 8150 3806"
+  },
+  {
+    "state": "QLD",
+    "name": "Kowanyama",
+    "identifier": "YKOW",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3721"
+  },
+  {
+    "state": "WA",
+    "name": "Kununurra",
+    "identifier": "YPKU",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2621"
+  },
+  {
+    "state": "VIC",
+    "name": "Latrobe Valley",
+    "identifier": "YLTV",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 8470 3211"
+  },
+  {
+    "state": "TAS",
+    "name": "Launceston",
+    "identifier": "YMLT",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 6283 8604"
+  },
+  {
+    "state": "WA",
+    "name": "Laverton",
+    "identifier": "YLTN",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 6216 2622"
+  },
+  {
+    "state": "WA",
+    "name": "Learmonth",
+    "identifier": "YPLM",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2623"
+  },
+  {
+    "state": "SA",
+    "name": "Leigh Creek",
+    "identifier": "YLEC",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 8150 3807"
+  },
+  {
+    "state": "WA",
+    "name": "Leinster",
+    "identifier": "YLST",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2624"
+  },
+  {
+    "state": "WA",
+    "name": "Leonora",
+    "identifier": "YLEO",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2625"
+  },
+  {
+    "state": "NSW",
+    "name": "Lismore",
+    "identifier": "YLIS",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6431"
+  },
+  {
+    "state": "QLD",
+    "name": "Lockhart River",
+    "identifier": "YLHR",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3722"
+  },
+  {
+    "state": "QLD",
+    "name": "Longreach",
+    "identifier": "YLRE",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3723"
+  },
+  {
+    "state": "NSW",
+    "name": "Lord Howe Island",
+    "identifier": "YLHI",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6432"
+  },
+  {
+    "state": "QLD",
+    "name": "Mackay",
+    "identifier": "YBMK",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3724"
+  },
+  {
+    "state": "NSW",
+    "name": "Maitland (NSW)",
+    "identifier": "YMND",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6433"
+  },
+  {
+    "state": "VIC",
+    "name": "Mallacoota",
+    "identifier": "YMCO",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(03) 8470 3212"
+  },
+  {
+    "state": "VIC",
+    "name": "Mangalore",
+    "identifier": "YMNG",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 8470 3213"
+  },
+  {
+    "state": "NT",
+    "name": "Maningrida",
+    "identifier": "YMGD",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 7922 2509"
+  },
+  {
+    "state": "QLD",
+    "name": "Mareeba",
+    "identifier": "YMBA",
+    "taf": true,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(07) 3564 3725"
+  },
+  {
+    "state": "QLD",
+    "name": "Maryborough (QLD)",
+    "identifier": "YMYB",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3726"
+  },
+  {
+    "state": "NT",
+    "name": "McArthur River Mine",
+    "identifier": "YMHU",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 7922 2510"
+  },
+  {
+    "state": "WA",
+    "name": "Meekatharra",
+    "identifier": "YMEK",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2626"
+  },
+  {
+    "state": "VIC",
+    "name": "Melbourne",
+    "identifier": "YMML",
+    "taf": true,
+    "taf3": true,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 8470 3214"
+  },
+  {
+    "state": "VIC",
+    "name": "Melbourne (Essendon)",
+    "identifier": "YMEN",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 8470 3207"
+  },
+  {
+    "state": "VIC",
+    "name": "Melbourne (Moorabbin)",
+    "identifier": "YMMB",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 8470 3216"
+  },
+  {
+    "state": "NSW",
+    "name": "Merimbula",
+    "identifier": "YMER",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6434"
+  },
+  {
+    "state": "VIC",
+    "name": "Mildura",
+    "identifier": "YMIA",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 8470 3215"
+  },
+  {
+    "state": "NT",
+    "name": "Milingimbi",
+    "identifier": "YMGB",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 7922 2511"
+  },
+  {
+    "state": "SA",
+    "name": "Moomba",
+    "identifier": "YOOM",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 8150 3808"
+  },
+  {
+    "state": "QLD",
+    "name": "Moranbah",
+    "identifier": "YMRB",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3727"
+  },
+  {
+    "state": "NSW",
+    "name": "Moree",
+    "identifier": "YMOR",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6435"
+  },
+  {
+    "state": "QLD",
+    "name": "Mornington Island",
+    "identifier": "YMTI",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3728"
+  },
+  {
+    "state": "NSW",
+    "name": "Moruya",
+    "identifier": "YMRY",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6436"
+  },
+  {
+    "state": "NSW",
+    "name": "Moss Vale",
+    "identifier": "MSV",
+    "taf": false,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6437"
+  },
+  {
+    "state": "NSW",
+    "name": "Mount Boyce",
+    "identifier": "MTB",
+    "taf": false,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6438"
+  },
+  {
+    "state": "SA",
+    "name": "Mount Gambier",
+    "identifier": "YMTG",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 8150 3809"
+  },
+  {
+    "state": "VIC",
+    "name": "Mount Hotham",
+    "identifier": "YHOT",
+    "taf": false,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 8470 3217"
+  },
+  {
+    "state": "QLD",
+    "name": "Mount Isa",
+    "identifier": "YBMA",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3729"
+  },
+  {
+    "state": "WA",
+    "name": "Mount Magnet",
+    "identifier": "YMOG",
+    "taf": true,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 6216 2627"
+  },
+  {
+    "state": "NSW",
+    "name": "Mudgee",
+    "identifier": "YMDG",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6439"
+  },
+  {
+    "state": "NSW",
+    "name": "Murrurundi",
+    "identifier": "MUI",
+    "taf": false,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6440"
+  },
+  {
+    "state": "SA",
+    "name": "Naracoorte",
+    "identifier": "YNRC",
+    "taf": true,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 8150 3810"
+  },
+  {
+    "state": "NSW",
+    "name": "Narrabri",
+    "identifier": "YNBR",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6441"
+  },
+  {
+    "state": "NSW",
+    "name": "Narrandera",
+    "identifier": "YNAR",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6442"
+  },
+  {
+    "state": "WA",
+    "name": "Newman",
+    "identifier": "YNWN",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2628"
+  },
+  {
+    "state": "VIC",
+    "name": "Nhill",
+    "identifier": "YNHL",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(03) 8470 3218"
+  },
+  {
+    "state": "NSW",
+    "name": "Norfolk Island",
+    "identifier": "YSNF",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6443"
+  },
+  {
+    "state": "QLD",
+    "name": "Normanton",
+    "identifier": "YNTN",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3730"
+  },
+  {
+    "state": "WA",
+    "name": "Norseman",
+    "identifier": "YNSM",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 6216 2629"
+  },
+  {
+    "state": "NSW",
+    "name": "Nowra",
+    "identifier": "YSNW",
+    "taf": true,
+    "taf3": true,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6444"
+  },
+  {
+    "state": "QLD",
+    "name": "Oakey",
+    "identifier": "YBOK",
+    "taf": true,
+    "taf3": true,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3731"
+  },
+  {
+    "state": "SA",
+    "name": "Olympic Dam",
+    "identifier": "YOLD",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 8150 3811"
+  },
+  {
+    "state": "WA",
+    "name": "Onslow",
+    "identifier": "YOLW",
+    "taf": true,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 6216 2630"
+  },
+  {
+    "state": "SA",
+    "name": "Oodnadatta",
+    "identifier": "YOOD",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 8150 3812"
+  },
+  {
+    "state": "NSW",
+    "name": "Orange",
+    "identifier": "YORG",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6445"
+  },
+  {
+    "state": "WA",
+    "name": "Paraburdoo",
+    "identifier": "YPBO",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2631"
+  },
+  {
+    "state": "NSW",
+    "name": "Parkes",
+    "identifier": "YPKS",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6446"
+  },
+  {
+    "state": "WA",
+    "name": "Pearce",
+    "identifier": "YPEA",
+    "taf": true,
+    "taf3": true,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2632"
+  },
+  {
+    "state": "WA",
+    "name": "Perth",
+    "identifier": "YPPH",
+    "taf": true,
+    "taf3": true,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2633"
+  },
+  {
+    "state": "WA",
+    "name": "Perth (Jandakot)",
+    "identifier": "YPJT",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2618"
+  },
+  {
+    "state": "SA",
+    "name": "Port Augusta",
+    "identifier": "YPAG",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 8150 3814"
+  },
+  {
+    "state": "WA",
+    "name": "Port Hedland",
+    "identifier": "YPPD",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2634"
+  },
+  {
+    "state": "NT",
+    "name": "Port Keats",
+    "identifier": "YPKT",
+    "taf": true,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 7922 2512"
+  },
+  {
+    "state": "SA",
+    "name": "Port Lincoln",
+    "identifier": "YPLC",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 8150 3815"
+  },
+  {
+    "state": "NSW",
+    "name": "Port Macquaire",
+    "identifier": "YPMQ",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6447"
+  },
+  {
+    "state": "VIC",
+    "name": "Portland",
+    "identifier": "YPOD",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 8470 3204"
+  },
+  {
+    "state": "QLD",
+    "name": "Proserpine (Whitsunday Coast)",
+    "identifier": "YBPN",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3732"
+  },
+  {
+    "state": "SA",
+    "name": "Renmark",
+    "identifier": "YREN",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 8150 3817"
+  },
+  {
+    "state": "NSW",
+    "name": "Richmond (NSW)",
+    "identifier": "YSRI",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6448"
+  },
+  {
+    "state": "QLD",
+    "name": "Richmond (QLD)",
+    "identifier": "YRMD",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3733"
+  },
+  {
+    "state": "QLD",
+    "name": "Rockhampton",
+    "identifier": "YBRK",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3734"
+  },
+  {
+    "state": "QLD",
+    "name": "Roma",
+    "identifier": "YROM",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3735"
+  },
+  {
+    "state": "WA",
+    "name": "Rottnest Island",
+    "identifier": "YRTI",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 6216 2635"
+  },
+  {
+    "state": "TAS",
+    "name": "Saint Helens",
+    "identifier": "YSTH",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 6283 8606"
+  },
+  {
+    "state": "QLD",
+    "name": "Scherger (RAAF)",
+    "identifier": "YBSG",
+    "taf": false,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": false,
+    "phone": "(07) 3564 3737"
+  },
+  {
+    "state": "NSW",
+    "name": "Scone",
+    "identifier": "YSCO",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6449"
+  },
+  {
+    "state": "WA",
+    "name": "Shark Bay",
+    "identifier": "YSHK",
+    "taf": true,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 6216 2636"
+  },
+  {
+    "state": "NSW",
+    "name": "Shellharbour Airport",
+    "identifier": "YSHL",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6461"
+  },
+  {
+    "state": "VIC",
+    "name": "Shepparton",
+    "identifier": "YSHT",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 8470 3219"
+  },
+  {
+    "state": "TAS",
+    "name": "Smithton",
+    "identifier": "YSMI",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(03) 6283 8605"
+  },
+  {
+    "state": "WA",
+    "name": "Southern Cross",
+    "identifier": "YSCR",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2637"
+  },
+  {
+    "state": "VIC",
+    "name": "Stawell",
+    "identifier": "YSWL",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(03) 8470 3220"
+  },
+  {
+    "state": "TAS",
+    "name": "Strahan",
+    "identifier": "YSRN",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 6283 8607"
+  },
+  {
+    "state": "QLD",
+    "name": "Sunshine Coast",
+    "identifier": "YBSU",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3738"
+  },
+  {
+    "state": "VIC",
+    "name": "Swan Hill",
+    "identifier": "YSWH",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 8470 3221"
+  },
+  {
+    "state": "NSW",
+    "name": "Sydney (Kingsford Smith)",
+    "identifier": "YSSY",
+    "taf": true,
+    "taf3": true,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6450"
+  },
+  {
+    "state": "NSW",
+    "name": "Sydney (Bankstown)",
+    "identifier": "YSBK",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6403"
+  },
+  {
+    "state": "NSW",
+    "name": "Tamworth",
+    "identifier": "YSTW",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6451"
+  },
+  {
+    "state": "SA",
+    "name": "Tarcoola",
+    "identifier": "YTAR",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 8150 3818"
+  },
+  {
+    "state": "NSW",
+    "name": "Taree",
+    "identifier": "YTRE",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6452"
+  },
+  {
+    "state": "WA",
+    "name": "Telfer",
+    "identifier": "YTEF",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2638"
+  },
+  {
+    "state": "NSW",
+    "name": "Temora",
+    "identifier": "YTEM",
+    "taf": true,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(02) 9353 6453"
+  },
+  {
+    "state": "NT",
+    "name": "Tennant Creek",
+    "identifier": "YTNK",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 7922 2513"
+  },
+  {
+    "state": "QLD",
+    "name": "Thangool",
+    "identifier": "YTNG",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3739"
+  },
+  {
+    "state": "QLD",
+    "name": "Thargomindah",
+    "identifier": "YTGM",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3740"
+  },
+  {
+    "state": "QLD",
+    "name": "The Monument",
+    "identifier": "YTMO",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3741"
+  },
+  {
+    "state": "NSW",
+    "name": "Tibooburra",
+    "identifier": "YTIB",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(02) 9353 6454"
+  },
+  {
+    "state": "NT",
+    "name": "Tindal",
+    "identifier": "YPTN",
+    "taf": true,
+    "taf3": true,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 7922 2514"
+  },
+  {
+    "state": "QLD",
+    "name": "Toowoomba",
+    "identifier": "YTWB",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3742"
+  },
+  {
+    "state": "QLD",
+    "name": "Townsville (Townsville INTL)",
+    "identifier": "YBTL",
+    "taf": true,
+    "taf3": true,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3743"
+  },
+  {
+    "state": "QLD",
+    "name": "Trepell",
+    "identifier": "YTEE",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3744"
+  },
+  {
+    "state": "WA",
+    "name": "Tropicana",
+    "identifier": "YTRA",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2639"
+  },
+  {
+    "state": "NT",
+    "name": "Victoria River Downs",
+    "identifier": "YVRD",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 7922 2515"
+  },
+  {
+    "state": "NSW",
+    "name": "Wagga Wagga",
+    "identifier": "YSWG",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6455"
+  },
+  {
+    "state": "NSW",
+    "name": "Walgett",
+    "identifier": "YWLG",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6456"
+  },
+  {
+    "state": "VIC",
+    "name": "Wangaratta",
+    "identifier": "YWGT",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 8470 3222"
+  },
+  {
+    "state": "WA",
+    "name": "Warburton",
+    "identifier": "YWBR",
+    "taf": true,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 6216 2640"
+  },
+  {
+    "state": "VIC",
+    "name": "Warracknabeal",
+    "identifier": "YWKB",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(03) 8470 3223"
+  },
+  {
+    "state": "VIC",
+    "name": "Warrnambool",
+    "identifier": "YWBL",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 8470 3224"
+  },
+  {
+    "state": "QLD",
+    "name": "Weipa",
+    "identifier": "YBWP",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(07) 3564 3745"
+  },
+  {
+    "state": "WA",
+    "name": "West Angelas",
+    "identifier": "YANG",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6332 8175"
+  },
+  {
+    "state": "NSW",
+    "name": "West Wyalong",
+    "identifier": "YWWL",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(02) 9353 6457"
+  },
+  {
+    "state": "SA",
+    "name": "Whyalla",
+    "identifier": "YWHA",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 8150 3819"
+  },
+  {
+    "state": "NSW",
+    "name": "Wilcannia",
+    "identifier": "YWCA",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(02) 9353 6459"
+  },
+  {
+    "state": "QLD",
+    "name": "Williamson",
+    "identifier": "YWIS",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(07) 3564 3747"
+  },
+  {
+    "state": "NSW",
+    "name": "Williamtown",
+    "identifier": "YWLM",
+    "taf": true,
+    "taf3": true,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6460"
+  },
+  {
+    "state": "WA",
+    "name": "Wiluna",
+    "identifier": "YWLU",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 6216 2641"
+  },
+  {
+    "state": "SA",
+    "name": "Woomera",
+    "identifier": "YPWR",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(08) 8150 3820"
+  },
+  {
+    "state": "SA",
+    "name": "Wudinna",
+    "identifier": "YWUD",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 8150 3821"
+  },
+  {
+    "state": "WA",
+    "name": "Wyndham",
+    "identifier": "YWYM",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(08) 6216 2642"
+  },
+  {
+    "state": "TAS",
+    "name": "Wynyard",
+    "identifier": "YWYY",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(03) 6283 8608"
+  },
+  {
+    "state": "VIC",
+    "name": "Yarram",
+    "identifier": "YYRM",
+    "taf": false,
+    "taf3": false,
+    "cilometer": false,
+    "vismeter": false,
+    "phone": "(03) 8470 3225"
+  },
+  {
+    "state": "NSW",
+    "name": "Young",
+    "identifier": "YYNG",
+    "taf": true,
+    "taf3": false,
+    "cilometer": true,
+    "vismeter": true,
+    "phone": "(02) 9353 6462"
+  }
+]
