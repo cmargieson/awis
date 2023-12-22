@@ -45,6 +45,7 @@ const Item = memo(function Item({ item }) {
             Linking.openURL(`tel:${item.phone}`)
           }}
           size="$3"
+          accessibilityLabel={`Call ${item.name}`}
         >
           Call
         </Button>
