@@ -98,7 +98,17 @@ You may potentially want to have the native module transpiled for the next app. 
 ### Commands
 
 ~/awis/apps/expo$ yarn add @react-native-async-storage/async-storage
+
 ~/awis/apps/expo$ npm install -g eas-cli
 ~/awis/apps/expo$ eas login
 ~/awis/apps/expo$ eas build:configure
+
+#### APK
+
 ~/awis/apps/expo$ eas build -p android --profile development
+
+
+#### Deploy
+
+~/awis/apps/expo$ eas build --platform android
+ ~/awis/apps/expo$ eas submit --platform android
