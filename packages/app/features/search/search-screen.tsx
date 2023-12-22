@@ -1,7 +1,7 @@
 import { Input, YStack } from '@my/ui'
 import { useState, useEffect } from 'react'
 
-import { ItemList } from '../item-list'
+import { ItemList } from './item-list'
 
 import data from '../../assets/data.json'
 

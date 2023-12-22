@@ -3,7 +3,7 @@ import { useState, useEffect } from 'react'
 import AsyncStorage from '@react-native-async-storage/async-storage'
 import { useIsFocused } from '@react-navigation/native'
 
-import { ItemList } from '../item-list'
+import { ItemList } from '../search/item-list'
 
 export function HomeScreen() {
   const [recents, setRecents] = useState([])
