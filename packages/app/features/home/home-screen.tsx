@@ -1,9 +1,10 @@
 import { XStack, Text, Button, YStack } from '@my/ui'
 import { useState, useEffect } from 'react'
-import AsyncStorage from '@react-native-async-storage/async-storage'
 import { useIsFocused } from '@react-navigation/native'
 
 import { ItemList } from '../search/item-list'
+
+import { getRecents, deleteRecents } from '../functions'
 
 export function HomeScreen() {
   const [recents, setRecents] = useState([])
@@ -12,26 +13,9 @@ export function HomeScreen() {
 
   useEffect(() => {
     if (isFocused) {
-      readRecents()
+      getRecents().then((recents) => setRecents(recents))
     }
   }, [isFocused])
-
-  const readRecents = async () => {
-    try {
-      const jsonData = await AsyncStorage.getItem('@recents')
-      const data = jsonData != null ? JSON.parse(jsonData) : []
-      let uniq = data.filter(
-        ({ identifier }, index, a) => a.findIndex((e) => identifier === e.identifier) === index
-      )
-      setRecents(uniq)
-    } catch (e) {}
-  }
-
-  const deleteRecents = async () => {
-    try {
-      await AsyncStorage.removeItem('@recents')
-    } catch (e) {}
-  }
 
   return (
     <YStack margin="$3" space="$3">
@@ -43,7 +27,6 @@ export function HomeScreen() {
 
 function RecentsHeader({ deleteRecents, recents, setRecents }) {
   if (!recents.length) {
-    
     return <></>
   }
 

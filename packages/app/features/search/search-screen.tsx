@@ -6,7 +6,18 @@ import { ItemList } from './item-list'
 import data from '../../assets/data.json'
 
 export function SearchScreen() {
-  const [filteredArray, setFilteredArray] = useState([])
+  const [filteredArray, setFilteredArray] = useState<
+    | {
+        state: string
+        name: string
+        identifier: string
+        taf: boolean
+        taf3: boolean
+        cilometer: boolean
+        vismeter: boolean
+        phone: string
+      }[]
+  >([])
   const [inputValue, setInputValue] = useState('')
 
   useEffect(() => {

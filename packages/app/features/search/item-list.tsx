@@ -2,7 +2,8 @@ import { Button, ListItem, Separator } from '@my/ui'
 import { Phone } from '@tamagui/lucide-icons'
 import { memo } from 'react'
 import { FlatList, Linking } from 'react-native'
-import AsyncStorage from '@react-native-async-storage/async-storage'
+
+import { addRecent } from '../functions'
 
 export const ItemList = ({ filteredArray }) => {
   if (!filteredArray.length) {
@@ -23,29 +24,19 @@ export const ItemList = ({ filteredArray }) => {
 }
 
 const Item = memo(function Item({ item }) {
-  const updateRecents = async (value) => {
-    try {
-      const oldData = await AsyncStorage.getItem('@recents')
-      const data = oldData != null ? JSON.parse(oldData) : []
-      data.unshift(value)
-      const jsonValue = JSON.stringify(data)
-      await AsyncStorage.setItem('@recents', jsonValue)
-    } catch (e) {}
-  }
-
   return (
     <ListItem
       title={item.name}
       subTitle={item.identifier}
       iconAfter={
         <Button
+          accessibilityLabel={`Call ${item.name}`}
           iconAfter={<Phone />}
           onPress={() => {
-            updateRecents(item)
+            addRecent(item)
             Linking.openURL(`tel:${item.phone}`)
           }}
           size="$3"
-          accessibilityLabel={`Call ${item.name}`}
         >
           Call
         </Button>
