@@ -1,4 +1,14 @@
-import { AlertDialog, Button, ListItem, Separator, Text, YGroup, XStack, YStack } from '@my/ui'
+import {
+  AlertDialog,
+  Button,
+  Image,
+  ListItem,
+  Separator,
+  Text,
+  YGroup,
+  XStack,
+  YStack,
+} from '@my/ui'
 import { Phone } from '@tamagui/lucide-icons'
 import { useState, useEffect } from 'react'
 import { Linking } from 'react-native'
