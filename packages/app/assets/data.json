@@ -1231,7 +1231,7 @@
   },
   {
     "state": "VIC",
-    "name": "Melbourne (Essendon)",
+    "name": "Essendon",
     "identifier": "YMEN",
     "taf": true,
     "taf3": false,
@@ -1241,7 +1241,7 @@
   },
   {
     "state": "VIC",
-    "name": "Melbourne (Moorabbin)",
+    "name": "Moorabbin",
     "identifier": "YMMB",
     "taf": true,
     "taf3": false,
