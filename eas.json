@@ -24,7 +24,7 @@
     "submit": {
       "production": {
         "android": {
-          "serviceAccountKeyPath": "./expo-407907-600510d06c2e.json"
+          "serviceAccountKeyPath": "./expo-407907-98da59a3fb7c.json"
         }
       }
     }

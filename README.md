@@ -1,3 +1,7 @@
 note because this is in a monorepo had to remove react, react-dom, and react-native-web deps and change metro.config.js a bit.
 
 npx expo start
+
+eas build --profile production
+
+eas submit --platform android 

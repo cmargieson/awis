@@ -23,8 +23,8 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.cmargieson.awis",
-      "versionCode": 2
+      "package": "com.awis.app",
+      "versionCode": 10
     },
     "web": {
       "bundler": "metro",
