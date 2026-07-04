@@ -7,9 +7,16 @@ type ResultsProps = {
   results: Aerodrome[]
 }
 
+function dialPhone(phone: string) {
+  const digits = phone.replace(/\D/g, '')
+  if (digits) {
+    Linking.openURL(`tel:${digits}`)
+  }
+}
+
 export default function Results({ results }: ResultsProps) {
   return (
-    <ScrollView showsVerticalScrollIndicator={false}>
+    <ScrollView flex={1} showsVerticalScrollIndicator={false}>
       <YStack>
         {results.map((item, index) => (
           <YStack key={item.identifier}>
@@ -17,7 +24,7 @@ export default function Results({ results }: ResultsProps) {
             <ListItem
               title={item.name}
               subTitle={item.identifier}
-              onPress={() => Linking.openURL(`tel:${item.phone}`)}
+              onPress={() => dialPhone(item.phone)}
             />
           </YStack>
         ))}
