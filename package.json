@@ -5,6 +5,7 @@
   "scripts": {
     "upgrade:tamagui": "npm update tamagui @tamagui/config @tamagui/babel-plugin @tamagui/metro-plugin",
     "start": "npx expo start -c",
+    "start:dev": "npx expo start --dev-client -c",
     "android": "npx expo start --android",
     "ios": "npx expo start --ios",
     "web": "npx expo start --web",
@@ -14,9 +15,11 @@
   "dependencies": {
     "@react-navigation/native": "^7.0.14",
     "@tamagui/config": "^2.4.1",
+    "@tamagui/core": "^2.4.1",
     "@tamagui/font-inter": "^2.4.1",
     "expo": "^57.0.0",
     "expo-constants": "~57.0.3",
+    "expo-dev-client": "~57.0.5",
     "expo-font": "~57.0.0",
     "expo-linking": "~57.0.1",
     "expo-router": "~57.0.3",
@@ -50,6 +53,10 @@
   "overrides": {
     "tamagui": "$tamagui",
     "@tamagui/core": "$@tamagui/core"
+  },
+  "allowScripts": {
+    "@biomejs/biome": true,
+    "esbuild": true
   },
   "private": true
 }

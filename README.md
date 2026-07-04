@@ -37,6 +37,20 @@ npm run lint
 npx expo-doctor
 ```
 
+## Development builds
+
+This project uses [expo-dev-client](https://docs.expo.dev/develop/development-builds/introduction/). After installing a development build on your device:
+
+```bash
+npm run start:dev
+```
+
+Build a new development APK on EAS:
+
+```bash
+eas build --profile development --platform android
+```
+
 ## Production builds
 
 ```bash
