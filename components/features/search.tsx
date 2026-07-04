@@ -5,5 +5,13 @@ type SearchProps = {
 }
 
 export default function Search({ setInput }: SearchProps) {
-  return <Input onChangeText={setInput} placeholder="Search aerodromes" />
+  return (
+    <Input
+      size="$4"
+      borderRadius="$4"
+      borderWidth={1}
+      onChangeText={setInput}
+      placeholder="Search aerodromes"
+    />
+  )
 }

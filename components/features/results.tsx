@@ -17,14 +17,21 @@ function dialPhone(phone: string) {
 export default function Results({ results }: ResultsProps) {
   return (
     <ScrollView flex={1} showsVerticalScrollIndicator={false}>
-      <YStack>
+      <YStack
+        borderRadius="$4"
+        borderWidth={1}
+        borderColor="$borderColor"
+        overflow="hidden"
+        backgroundColor="$background"
+      >
         {results.map((item, index) => (
           <YStack key={item.identifier}>
-            {index > 0 && <Separator />}
+            {index > 0 && <Separator mx="$3" />}
             <ListItem
+              size="$4"
               title={item.name}
               subTitle={
-                <XStack width="100%" alignItems="center">
+                <XStack width="100%" alignItems="center" mt="$1">
                   <ListItem.Subtitle>{item.identifier}</ListItem.Subtitle>
                   <ListItem.Subtitle ml="auto">{item.phone}</ListItem.Subtitle>
                 </XStack>

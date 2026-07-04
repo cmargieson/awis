@@ -20,7 +20,7 @@ export default function IndexScreen() {
   )
 
   return (
-    <YStack flex={1} gap="$3" px="$3" pt="$3">
+    <YStack flex={1} gap="$4" px="$3" pt="$3" pb="$3">
       <Search setInput={setInput} />
       <Results results={results} />
     </YStack>
