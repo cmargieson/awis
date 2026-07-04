@@ -5,7 +5,7 @@ import { useColorScheme } from 'react-native'
 import { DarkTheme, DefaultTheme, ThemeProvider } from 'expo-router/react-navigation'
 import { useFonts } from 'expo-font'
 import { SplashScreen, Stack } from 'expo-router'
-import { Provider } from './Provider'
+import { Provider } from '../components/Provider'
 
 export {
   // Catch any errors thrown by the Layout component.

@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react'
 import { YStack } from 'tamagui'
 
-import Results from './features/results'
-import Search from './features/search'
-import type { Aerodrome } from './types'
+import Results from '../components/features/results'
+import Search from '../components/features/search'
+import type { Aerodrome } from '../types/aerodrome'
 
 import DATA from '../assets/data/data.json'
 

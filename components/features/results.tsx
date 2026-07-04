@@ -1,7 +1,7 @@
 import { Linking } from 'react-native'
 import { ListItem, ScrollView, Separator, YStack } from 'tamagui'
 
-import type { Aerodrome } from '../types'
+import type { Aerodrome } from '../../types/aerodrome'
 
 type ResultsProps = {
   results: Aerodrome[]
