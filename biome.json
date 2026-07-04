@@ -64,11 +64,16 @@
     "indentStyle": "space",
     "indentWidth": 2,
     "lineWidth": 90,
-    "ignore": ["**/*/generated-new.ts", "**/*/generated-v2.ts"]
+    "ignore": [
+      "**/*/generated-new.ts",
+      "**/*/generated-v2.ts",
+      "tamagui-web.css",
+      "assets/data/data.json"
+    ]
   },
   "javascript": {
     "formatter": {
-      "trailingComma": "es5",
+      "trailingCommas": "es5",
       "jsxQuoteStyle": "double",
       "semicolons": "asNeeded",
       "quoteStyle": "single"

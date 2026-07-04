@@ -1,5 +1,9 @@
-import { Input } from "tamagui";
+import { Input } from 'tamagui'
 
-export default function Search({ setInput }) {
-  return <Input onChangeText={setInput} placeholder="Search aerodromes" />;
+type SearchProps = {
+  setInput: (value: string) => void
+}
+
+export default function Search({ setInput }: SearchProps) {
+  return <Input onChangeText={setInput} placeholder="Search aerodromes" />
 }
