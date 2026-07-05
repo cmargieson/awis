@@ -2,13 +2,13 @@
 
 AWIS ships to Google Play with [EAS Build](https://docs.expo.dev/build/introduction/) and [EAS Submit](https://docs.expo.dev/submit/introduction/).
 
-- **Package:** `com.awis.app`
+- **Package:** `dev.cmargieson.awis`
 - **Artifact:** Android App Bundle (`.aab`)
 - **Default track:** `internal` (change in `eas.json` or the GitHub Action)
 
 ## One-time Google Play Console setup
 
-1. Create the app in [Google Play Console](https://play.google.com/console) with package name **`com.awis.app`**.
+1. Create the app in [Google Play Console](https://play.google.com/console) with package name **`dev.cmargieson.awis`**.
 2. Complete required store listing, content rating, target audience, and data safety (the app is offline, no account, no analytics).
 3. Create a **Google Cloud service account** with access to the Play Console API:
    - Play Console → **Setup** → **API access** → link a Google Cloud project
@@ -74,7 +74,7 @@ Bump `expo.version` manually when releasing a new user-visible version.
 | Issue | Fix |
 |-------|-----|
 | Submit fails: permissions | Service account needs Release manager on the app |
-| Package name mismatch | Play app must use `com.awis.app` |
+| Package name mismatch | Play app must use `dev.cmargieson.awis` |
 | First upload rejected | Complete Play Console checklist (privacy policy URL, etc.) |
 | Build missing dev client | Expected for production; use `development` profile for dev builds |
 
