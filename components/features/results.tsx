@@ -1,5 +1,5 @@
 import { Linking } from 'react-native'
-import { ListItem, ScrollView, Separator, XStack, YStack } from 'tamagui'
+import { ListItem, ScrollView, Separator, SizableText, XStack, YStack } from 'tamagui'
 
 import type { Aerodrome } from '../../types/aerodrome'
 
@@ -31,9 +31,32 @@ export default function Results({ results }: ResultsProps) {
               size="$4"
               title={item.name}
               subTitle={
-                <XStack width="100%" alignItems="center" mt="$1">
-                  <ListItem.Subtitle>{item.identifier}</ListItem.Subtitle>
-                  <ListItem.Subtitle ml="auto">{item.phone}</ListItem.Subtitle>
+                <XStack
+                  flex={1}
+                  alignSelf="stretch"
+                  justifyContent="space-between"
+                  alignItems="center"
+                  mt="$1"
+                  gap="$3"
+                >
+                  <SizableText
+                    size="$3"
+                    color="$color"
+                    opacity={0.6}
+                    flexShrink={1}
+                    numberOfLines={1}
+                  >
+                    {item.identifier}
+                  </SizableText>
+                  <SizableText
+                    size="$3"
+                    color="$color"
+                    opacity={0.6}
+                    flexShrink={0}
+                    textAlign="right"
+                  >
+                    {item.phone}
+                  </SizableText>
                 </XStack>
               }
               onPress={() => dialPhone(item.phone)}
