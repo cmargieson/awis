@@ -1,0 +1,70 @@
+name: Deploy Android to Google Play
+
+on:
+  workflow_dispatch:
+    inputs:
+      track:
+        description: Google Play release track
+        required: true
+        default: internal
+        type: choice
+        options:
+          - internal
+          - alpha
+          - beta
+          - production
+      submit:
+        description: Submit to Google Play after build
+        required: true
+        default: true
+        type: boolean
+
+concurrency:
+  group: deploy-android
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run typecheck
+
+      - name: Write Google Play service account key
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+        run: |
+          if [ -z "$GOOGLE_SERVICE_ACCOUNT_KEY" ]; then
+            echo "GOOGLE_SERVICE_ACCOUNT_KEY secret is not set."
+            exit 1
+          fi
+          printf '%s' "$GOOGLE_SERVICE_ACCOUNT_KEY" > google-play-service-account.json
+
+      - name: Build production AAB
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+        run: npx eas-cli build --platform android --profile production --non-interactive
+
+      - name: Submit to Google Play
+        if: inputs.submit
+        env:
+          EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
+        run: >
+          npx eas-cli submit
+          --platform android
+          --profile production
+          --latest
+          --non-interactive
+          --track "${{ inputs.track }}"
+
+      - name: Remove service account key
+        if: always()
+        run: rm -f google-play-service-account.json

@@ -46,3 +46,4 @@ node_modules
 .expo
 
 expo-*.json
+google-play-service-account.json

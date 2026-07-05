@@ -1,6 +1,7 @@
 {
   "cli": {
-    "appVersionSource": "local"
+    "appVersionSource": "local",
+    "version": ">= 16.0.0"
   },
   "build": {
     "development": {
@@ -16,6 +17,7 @@
       }
     },
     "production": {
+      "node": "22.13.0",
       "distribution": "store",
       "android": {
         "buildType": "app-bundle",
@@ -26,7 +28,9 @@
   "submit": {
     "production": {
       "android": {
-        "serviceAccountKeyPath": "./expo-407907-98da59a3fb7c.json"
+        "serviceAccountKeyPath": "./google-play-service-account.json",
+        "track": "internal",
+        "releaseStatus": "completed"
       }
     }
   }

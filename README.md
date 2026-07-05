@@ -51,14 +51,22 @@ Build a new development APK on EAS:
 eas build --profile development --platform android
 ```
 
-## Production builds
+## Google Play deployment
+
+See [docs/google-play.md](docs/google-play.md) for full setup (Play Console, service account, CI secrets).
 
 ```bash
-eas build --profile production
-eas submit --platform android
+# Build store AAB on EAS
+npm run build:android
+
+# Build and submit to Google Play (default track: internal)
+npm run deploy:android
+
+# Submit latest build to a track
+npm run submit:android -- --track production
 ```
 
-Android submit requires a Google Play service account key at `./expo-*.json` (gitignored).
+Place your Play Console service account JSON at `./google-play-service-account.json` (gitignored), or use GitHub Actions with the `GOOGLE_SERVICE_ACCOUNT_KEY` secret.
 
 ## Data
 

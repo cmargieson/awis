@@ -10,7 +10,10 @@
     "ios": "npx expo start --ios",
     "web": "npx expo start --web",
     "lint": "biome check .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "build:android": "eas build --platform android --profile production",
+    "submit:android": "eas submit --platform android --profile production --latest",
+    "deploy:android": "eas build --platform android --profile production --auto-submit"
   },
   "dependencies": {
     "@tamagui/config": "^2.4.1",
