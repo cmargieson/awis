@@ -51,7 +51,7 @@ function RootLayoutNav() {
             name="index"
             options={{
               // headerShown: false,
-              title: 'AWIS',
+              title: 'AWIS Phonebook',
             }}
           />
         </Stack>

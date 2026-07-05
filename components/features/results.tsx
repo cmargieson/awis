@@ -1,5 +1,5 @@
 import { Linking } from 'react-native'
-import { ListItem, ScrollView, Separator, SizableText, XStack, YStack } from 'tamagui'
+import { ListItem, ScrollView, SizableText, XStack, YStack } from 'tamagui'
 
 import type { Aerodrome } from '../../types/aerodrome'
 
@@ -17,16 +17,16 @@ function dialPhone(phone: string) {
 export default function Results({ results }: ResultsProps) {
   return (
     <ScrollView flex={1} showsVerticalScrollIndicator={false}>
-      <YStack
-        borderRadius="$4"
-        borderWidth={1}
-        borderColor="$borderColor"
-        overflow="hidden"
-        backgroundColor="$background"
-      >
-        {results.map((item, index) => (
-          <YStack key={item.identifier}>
-            {index > 0 && <Separator mx="$3" />}
+      <YStack gap="$2">
+        {results.map((item) => (
+          <YStack
+            key={item.identifier}
+            borderRadius="$4"
+            borderWidth={1}
+            borderColor="$borderColor"
+            overflow="hidden"
+            backgroundColor="$background"
+          >
             <ListItem
               size="$4"
               title={item.name}
