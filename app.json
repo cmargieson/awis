@@ -16,7 +16,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.awis.app",
+      "package": "dev.cmargieson.awis",
       "versionCode": 10
     },
     "web": {
