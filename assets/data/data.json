@@ -5,7 +5,7 @@
       "identifier": "YPAD",
       "taf": true,
       "taf3": true,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 8150 3800"
     },
@@ -15,7 +15,7 @@
       "identifier": "YPPF",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 8150 3813"
     },
@@ -25,7 +25,7 @@
       "identifier": "YABA",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2600"
     },
@@ -35,7 +35,7 @@
       "identifier": "YMAY",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6400"
     },
@@ -45,7 +45,7 @@
       "identifier": "YBAS",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 7922 2500"
     },
@@ -55,7 +55,7 @@
       "identifier": "YAMB",
       "taf": true,
       "taf3": true,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3700"
     },
@@ -65,7 +65,7 @@
       "identifier": "YARG",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2601"
     },
@@ -75,7 +75,7 @@
       "identifier": "YARM",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6401"
     },
@@ -85,7 +85,7 @@
       "identifier": "YMAV",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 8470 3200"
     },
@@ -95,7 +95,7 @@
       "identifier": "YAYE",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 7922 2516"
     },
@@ -105,7 +105,7 @@
       "identifier": "YBNS",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 8470 3201"
     },
@@ -115,7 +115,7 @@
       "identifier": "YBLT",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 8470 3202"
     },
@@ -125,7 +125,7 @@
       "identifier": "YLLE",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3702"
     },
@@ -135,7 +135,7 @@
       "identifier": "YBNA",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6402"
     },
@@ -145,7 +145,7 @@
       "identifier": "YBWX",
       "taf": true,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 6216 2602"
     },
@@ -155,7 +155,7 @@
       "identifier": "YBTH",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6404"
     },
@@ -165,7 +165,7 @@
       "identifier": "YBDG",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 8470 3203"
     },
@@ -175,7 +175,7 @@
       "identifier": "YBDV",
       "taf": true,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(07) 3564 3703"
     },
@@ -185,7 +185,7 @@
       "identifier": "YBCK",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(07) 3564 3704"
     },
@@ -195,7 +195,7 @@
       "identifier": "YBRL",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 7922 2502"
     },
@@ -205,7 +205,7 @@
       "identifier": "YBKE",
       "taf": true,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(02) 9353 6405"
     },
@@ -215,7 +215,7 @@
       "identifier": "YBBN",
       "taf": true,
       "taf3": true,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3705"
     },
@@ -225,7 +225,7 @@
       "identifier": "YBAF",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3701"
     },
@@ -235,7 +235,7 @@
       "identifier": "YBWW",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3746"
     },
@@ -245,7 +245,7 @@
       "identifier": "YBHI",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6406"
     },
@@ -255,7 +255,7 @@
       "identifier": "YBRM",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2603"
     },
@@ -265,7 +265,7 @@
       "identifier": "YBUD",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3706"
     },
@@ -275,7 +275,7 @@
       "identifier": "YBKT",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3707"
     },
@@ -285,7 +285,7 @@
       "identifier": "YBLN",
       "taf": true,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 6216 2604"
     },
@@ -295,7 +295,7 @@
       "identifier": "YBCS",
       "taf": true,
       "taf3": true,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3708"
     },
@@ -305,7 +305,7 @@
       "identifier": "YSCN",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6407"
     },
@@ -315,7 +315,7 @@
       "identifier": "YSCB",
       "taf": true,
       "taf3": true,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6408"
     },
@@ -325,7 +325,7 @@
       "identifier": "YCAR",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2605"
     },
@@ -335,7 +335,7 @@
       "identifier": "YCAS",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(02) 9353 6409"
     },
@@ -345,7 +345,7 @@
       "identifier": "YCDU",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 8150 3801"
     },
@@ -355,7 +355,7 @@
       "identifier": "YCNY",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(07) 3564 3709"
     },
@@ -365,7 +365,7 @@
       "identifier": "YCNK",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(02) 9353 6410"
     },
@@ -375,7 +375,7 @@
       "identifier": "YBCV",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3710"
     },
@@ -385,7 +385,7 @@
       "identifier": "YCCA",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 4662 7582"
     },
@@ -395,7 +395,7 @@
       "identifier": "YCEE",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 8150 3802"
     },
@@ -405,7 +405,7 @@
       "identifier": "YCCY",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3711"
     },
@@ -415,7 +415,7 @@
       "identifier": "YCBA",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6411"
     },
@@ -425,7 +425,7 @@
       "identifier": "YPCC",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2607"
     },
@@ -435,7 +435,7 @@
       "identifier": "YCFS",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6412"
     },
@@ -445,7 +445,7 @@
       "identifier": "YCEM",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(03) 8470 3205"
     },
@@ -455,7 +455,7 @@
       "identifier": "YCDO",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(02) 9353 6413"
     },
@@ -465,7 +465,7 @@
       "identifier": "YCBP",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 8150 3803"
     },
@@ -475,7 +475,7 @@
       "identifier": "YCKN",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3712"
     },
@@ -485,7 +485,7 @@
       "identifier": "YCOM",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6414"
     },
@@ -495,7 +495,7 @@
       "identifier": "YCBB",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6415"
     },
@@ -505,7 +505,7 @@
       "identifier": "YCNM",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(02) 9353 6416"
     },
@@ -515,7 +515,7 @@
       "identifier": "YCWR",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(02) 9353 6417"
     },
@@ -525,7 +525,7 @@
       "identifier": "YCMM",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 8150 3804"
     },
@@ -535,7 +535,7 @@
       "identifier": "YCUN",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2608"
     },
@@ -545,7 +545,7 @@
       "identifier": "YCIN",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2609"
     },
@@ -555,7 +555,7 @@
       "identifier": "YPDN",
       "taf": true,
       "taf3": true,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 7922 2503"
     },
@@ -565,7 +565,7 @@
       "identifier": "YDLQ",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(02) 9353 6418"
     },
@@ -575,7 +575,7 @@
       "identifier": "YDBY",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2610"
     },
@@ -585,7 +585,7 @@
       "identifier": "YDPO",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 6283 8600"
     },
@@ -595,7 +595,7 @@
       "identifier": "YSDU",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6419"
     },
@@ -605,7 +605,7 @@
       "identifier": "YMES",
       "taf": true,
       "taf3": true,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 8470 3206"
     },
@@ -615,7 +615,7 @@
       "identifier": "YPED",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 8150 3805"
     },
@@ -625,7 +625,7 @@
       "identifier": "YEML",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3714"
     },
@@ -635,7 +635,7 @@
       "identifier": "YERN",
       "taf": true,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 8150 3816"
     },
@@ -645,7 +645,7 @@
       "identifier": "YESP",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2611"
     },
@@ -655,7 +655,7 @@
       "identifier": "YFTZ",
       "taf": true,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 6216 2612"
     },
@@ -665,7 +665,7 @@
       "identifier": "YFLI",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 6283 8601"
     },
@@ -675,7 +675,7 @@
       "identifier": "YFBS",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(02) 9353 6420"
     },
@@ -685,7 +685,7 @@
       "identifier": "YFRT",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2613"
     },
@@ -695,7 +695,7 @@
       "identifier": "YGEL",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2615"
     },
@@ -705,7 +705,7 @@
       "identifier": "YGIG",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 6216 2616"
     },
@@ -715,7 +715,7 @@
       "identifier": "YGLA",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3715"
     },
@@ -725,7 +725,7 @@
       "identifier": "YGLI",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6421"
     },
@@ -735,7 +735,7 @@
       "identifier": "YBCG",
       "taf": true,
       "taf3": true,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3713"
     },
@@ -745,7 +745,7 @@
       "identifier": "YGLB",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6422"
     },
@@ -755,7 +755,7 @@
       "identifier": "YPGV",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 7922 2505"
     },
@@ -765,7 +765,7 @@
       "identifier": "YGFN",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6423"
     },
@@ -775,7 +775,7 @@
       "identifier": "YGTH",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6424"
     },
@@ -785,7 +785,7 @@
       "identifier": "YGTE",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 7922 2506"
     },
@@ -795,7 +795,7 @@
       "identifier": "YGDH",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(02) 9353 6425"
     },
@@ -805,7 +805,7 @@
       "identifier": "YHLC",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2617"
     },
@@ -815,7 +815,7 @@
       "identifier": "YHML",
       "taf": true,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(03) 8470 3208"
     },
@@ -825,7 +825,7 @@
       "identifier": "YBHM",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3716"
     },
@@ -835,7 +835,7 @@
       "identifier": "YHAY",
       "taf": false,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6426"
     },
@@ -845,7 +845,7 @@
       "identifier": "YHBA",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3717"
     },
@@ -855,7 +855,7 @@
       "identifier": "YMHB",
       "taf": true,
       "taf3": true,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 6283 8602"
     },
@@ -865,7 +865,7 @@
       "identifier": "YSHW",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6427"
     },
@@ -875,7 +875,7 @@
       "identifier": "YHOO",
       "taf": true,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 7922 2508"
     },
@@ -885,7 +885,7 @@
       "identifier": "YHID",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3718"
     },
@@ -895,7 +895,7 @@
       "identifier": "YHSM",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 8470 3209"
     },
@@ -905,7 +905,7 @@
       "identifier": "YHUG",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3719"
     },
@@ -915,7 +915,7 @@
       "identifier": "YIVO",
       "taf": true,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(02) 9353 6428"
     },
@@ -925,7 +925,7 @@
       "identifier": "YJAB",
       "taf": true,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 7922 2507"
     },
@@ -935,7 +935,7 @@
       "identifier": "YPKG",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2619"
     },
@@ -945,7 +945,7 @@
       "identifier": "YPKA",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2620"
     },
@@ -955,7 +955,7 @@
       "identifier": "YKMP",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(02) 9353 6430"
     },
@@ -965,7 +965,7 @@
       "identifier": "KMG",
       "taf": false,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 8470 3210"
     },
@@ -975,7 +975,7 @@
       "identifier": "YKII",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 6283 8603"
     },
@@ -985,7 +985,7 @@
       "identifier": "YKRY",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3720"
     },
@@ -995,7 +995,7 @@
       "identifier": "YKSC",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 8150 3806"
     },
@@ -1005,7 +1005,7 @@
       "identifier": "YKOW",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3721"
     },
@@ -1015,7 +1015,7 @@
       "identifier": "YPKU",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2621"
     },
@@ -1025,7 +1025,7 @@
       "identifier": "YLTV",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 8470 3211"
     },
@@ -1035,7 +1035,7 @@
       "identifier": "YMLT",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 6283 8604"
     },
@@ -1045,7 +1045,7 @@
       "identifier": "YLTN",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 6216 2622"
     },
@@ -1055,7 +1055,7 @@
       "identifier": "YPLM",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2623"
     },
@@ -1065,7 +1065,7 @@
       "identifier": "YLEC",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 8150 3807"
     },
@@ -1075,7 +1075,7 @@
       "identifier": "YLST",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2624"
     },
@@ -1085,7 +1085,7 @@
       "identifier": "YLEO",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2625"
     },
@@ -1095,7 +1095,7 @@
       "identifier": "YLIS",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6431"
     },
@@ -1105,7 +1105,7 @@
       "identifier": "YLHR",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3722"
     },
@@ -1115,7 +1115,7 @@
       "identifier": "YLRE",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3723"
     },
@@ -1125,7 +1125,7 @@
       "identifier": "YLHI",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6432"
     },
@@ -1135,7 +1135,7 @@
       "identifier": "YBMK",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3724"
     },
@@ -1145,7 +1145,7 @@
       "identifier": "YMND",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6433"
     },
@@ -1155,7 +1155,7 @@
       "identifier": "YMCO",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(03) 8470 3212"
     },
@@ -1165,7 +1165,7 @@
       "identifier": "YMNG",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 8470 3213"
     },
@@ -1175,7 +1175,7 @@
       "identifier": "YMGD",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 7922 2509"
     },
@@ -1185,7 +1185,7 @@
       "identifier": "YMBA",
       "taf": true,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(07) 3564 3725"
     },
@@ -1195,7 +1195,7 @@
       "identifier": "YMYB",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3726"
     },
@@ -1205,7 +1205,7 @@
       "identifier": "YMHU",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 7922 2510"
     },
@@ -1215,7 +1215,7 @@
       "identifier": "YMEK",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2626"
     },
@@ -1225,7 +1225,7 @@
       "identifier": "YMML",
       "taf": true,
       "taf3": true,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 8470 3214"
     },
@@ -1235,7 +1235,7 @@
       "identifier": "YMEN",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 8470 3207"
     },
@@ -1245,7 +1245,7 @@
       "identifier": "YMMB",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 8470 3216"
     },
@@ -1255,7 +1255,7 @@
       "identifier": "YMER",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6434"
     },
@@ -1265,7 +1265,7 @@
       "identifier": "YMIA",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 8470 3215"
     },
@@ -1275,7 +1275,7 @@
       "identifier": "YMGB",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 7922 2511"
     },
@@ -1285,7 +1285,7 @@
       "identifier": "YOOM",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 8150 3808"
     },
@@ -1295,7 +1295,7 @@
       "identifier": "YMRB",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3727"
     },
@@ -1305,7 +1305,7 @@
       "identifier": "YMOR",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6435"
     },
@@ -1315,7 +1315,7 @@
       "identifier": "YMTI",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3728"
     },
@@ -1325,7 +1325,7 @@
       "identifier": "YMRY",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6436"
     },
@@ -1335,7 +1335,7 @@
       "identifier": "MSV",
       "taf": false,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6437"
     },
@@ -1345,7 +1345,7 @@
       "identifier": "MTB",
       "taf": false,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6438"
     },
@@ -1355,7 +1355,7 @@
       "identifier": "YMTG",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 8150 3809"
     },
@@ -1365,7 +1365,7 @@
       "identifier": "YHOT",
       "taf": false,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 8470 3217"
     },
@@ -1375,7 +1375,7 @@
       "identifier": "YBMA",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3729"
     },
@@ -1385,7 +1385,7 @@
       "identifier": "YMOG",
       "taf": true,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 6216 2627"
     },
@@ -1395,7 +1395,7 @@
       "identifier": "YMDG",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6439"
     },
@@ -1405,7 +1405,7 @@
       "identifier": "MUI",
       "taf": false,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6440"
     },
@@ -1415,7 +1415,7 @@
       "identifier": "YNRC",
       "taf": true,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 8150 3810"
     },
@@ -1425,7 +1425,7 @@
       "identifier": "YNBR",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6441"
     },
@@ -1435,7 +1435,7 @@
       "identifier": "YNAR",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6442"
     },
@@ -1445,7 +1445,7 @@
       "identifier": "YNWN",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2628"
     },
@@ -1455,7 +1455,7 @@
       "identifier": "YNHL",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(03) 8470 3218"
     },
@@ -1465,7 +1465,7 @@
       "identifier": "YSNF",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6443"
     },
@@ -1475,7 +1475,7 @@
       "identifier": "YNTN",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3730"
     },
@@ -1485,7 +1485,7 @@
       "identifier": "YNSM",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 6216 2629"
     },
@@ -1495,7 +1495,7 @@
       "identifier": "YSNW",
       "taf": true,
       "taf3": true,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6444"
     },
@@ -1505,7 +1505,7 @@
       "identifier": "YBOK",
       "taf": true,
       "taf3": true,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3731"
     },
@@ -1515,7 +1515,7 @@
       "identifier": "YOLD",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 8150 3811"
     },
@@ -1525,7 +1525,7 @@
       "identifier": "YOLW",
       "taf": true,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 6216 2630"
     },
@@ -1535,7 +1535,7 @@
       "identifier": "YOOD",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 8150 3812"
     },
@@ -1545,7 +1545,7 @@
       "identifier": "YORG",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6445"
     },
@@ -1555,7 +1555,7 @@
       "identifier": "YPBO",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2631"
     },
@@ -1565,7 +1565,7 @@
       "identifier": "YPKS",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6446"
     },
@@ -1575,7 +1575,7 @@
       "identifier": "YPEA",
       "taf": true,
       "taf3": true,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2632"
     },
@@ -1585,7 +1585,7 @@
       "identifier": "YPPH",
       "taf": true,
       "taf3": true,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2633"
     },
@@ -1595,7 +1595,7 @@
       "identifier": "YPJT",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2618"
     },
@@ -1605,7 +1605,7 @@
       "identifier": "YPAG",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 8150 3814"
     },
@@ -1615,7 +1615,7 @@
       "identifier": "YPPD",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2634"
     },
@@ -1625,7 +1625,7 @@
       "identifier": "YPKT",
       "taf": true,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 7922 2512"
     },
@@ -1635,7 +1635,7 @@
       "identifier": "YPLC",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 8150 3815"
     },
@@ -1645,7 +1645,7 @@
       "identifier": "YPMQ",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6447"
     },
@@ -1655,7 +1655,7 @@
       "identifier": "YPOD",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 8470 3204"
     },
@@ -1665,7 +1665,7 @@
       "identifier": "YBPN",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3732"
     },
@@ -1675,7 +1675,7 @@
       "identifier": "YREN",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 8150 3817"
     },
@@ -1685,7 +1685,7 @@
       "identifier": "YSRI",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6448"
     },
@@ -1695,7 +1695,7 @@
       "identifier": "YRMD",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3733"
     },
@@ -1705,7 +1705,7 @@
       "identifier": "YBRK",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3734"
     },
@@ -1715,7 +1715,7 @@
       "identifier": "YROM",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3735"
     },
@@ -1725,7 +1725,7 @@
       "identifier": "YRTI",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 6216 2635"
     },
@@ -1735,7 +1735,7 @@
       "identifier": "YSTH",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 6283 8606"
     },
@@ -1745,7 +1745,7 @@
       "identifier": "YBSG",
       "taf": false,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": false,
       "phone": "(07) 3564 3737"
     },
@@ -1755,7 +1755,7 @@
       "identifier": "YSCO",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6449"
     },
@@ -1765,7 +1765,7 @@
       "identifier": "YSHK",
       "taf": true,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 6216 2636"
     },
@@ -1775,7 +1775,7 @@
       "identifier": "YSHL",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6461"
     },
@@ -1785,7 +1785,7 @@
       "identifier": "YSHT",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 8470 3219"
     },
@@ -1795,7 +1795,7 @@
       "identifier": "YSMI",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(03) 6283 8605"
     },
@@ -1805,7 +1805,7 @@
       "identifier": "YSCR",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2637"
     },
@@ -1815,7 +1815,7 @@
       "identifier": "YSWL",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(03) 8470 3220"
     },
@@ -1825,7 +1825,7 @@
       "identifier": "YSRN",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 6283 8607"
     },
@@ -1835,7 +1835,7 @@
       "identifier": "YBSU",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3738"
     },
@@ -1845,7 +1845,7 @@
       "identifier": "YSWH",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 8470 3221"
     },
@@ -1855,7 +1855,7 @@
       "identifier": "YSSY",
       "taf": true,
       "taf3": true,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6450"
     },
@@ -1865,7 +1865,7 @@
       "identifier": "YSBK",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6403"
     },
@@ -1875,7 +1875,7 @@
       "identifier": "YSTW",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6451"
     },
@@ -1885,7 +1885,7 @@
       "identifier": "YTAR",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 8150 3818"
     },
@@ -1895,7 +1895,7 @@
       "identifier": "YTRE",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6452"
     },
@@ -1905,7 +1905,7 @@
       "identifier": "YTEF",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2638"
     },
@@ -1915,7 +1915,7 @@
       "identifier": "YTEM",
       "taf": true,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(02) 9353 6453"
     },
@@ -1925,7 +1925,7 @@
       "identifier": "YTNK",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 7922 2513"
     },
@@ -1935,7 +1935,7 @@
       "identifier": "YTNG",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3739"
     },
@@ -1945,7 +1945,7 @@
       "identifier": "YTGM",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3740"
     },
@@ -1955,7 +1955,7 @@
       "identifier": "YTMO",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3741"
     },
@@ -1965,7 +1965,7 @@
       "identifier": "YTIB",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(02) 9353 6454"
     },
@@ -1975,7 +1975,7 @@
       "identifier": "YPTN",
       "taf": true,
       "taf3": true,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 7922 2514"
     },
@@ -1985,7 +1985,7 @@
       "identifier": "YTWB",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3742"
     },
@@ -1995,7 +1995,7 @@
       "identifier": "YBTL",
       "taf": true,
       "taf3": true,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3743"
     },
@@ -2005,7 +2005,7 @@
       "identifier": "YTEE",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3744"
     },
@@ -2015,7 +2015,7 @@
       "identifier": "YTRA",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2639"
     },
@@ -2025,7 +2025,7 @@
       "identifier": "YVRD",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 7922 2515"
     },
@@ -2035,7 +2035,7 @@
       "identifier": "YSWG",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6455"
     },
@@ -2045,7 +2045,7 @@
       "identifier": "YWLG",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6456"
     },
@@ -2055,7 +2055,7 @@
       "identifier": "YWGT",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 8470 3222"
     },
@@ -2065,7 +2065,7 @@
       "identifier": "YWBR",
       "taf": true,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 6216 2640"
     },
@@ -2075,7 +2075,7 @@
       "identifier": "YWKB",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(03) 8470 3223"
     },
@@ -2085,7 +2085,7 @@
       "identifier": "YWBL",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 8470 3224"
     },
@@ -2095,7 +2095,7 @@
       "identifier": "YBWP",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(07) 3564 3745"
     },
@@ -2105,7 +2105,7 @@
       "identifier": "YANG",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6332 8175"
     },
@@ -2115,7 +2115,7 @@
       "identifier": "YWWL",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(02) 9353 6457"
     },
@@ -2125,7 +2125,7 @@
       "identifier": "YWHA",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 8150 3819"
     },
@@ -2135,7 +2135,7 @@
       "identifier": "YWCA",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(02) 9353 6459"
     },
@@ -2145,7 +2145,7 @@
       "identifier": "YWIS",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(07) 3564 3747"
     },
@@ -2155,7 +2155,7 @@
       "identifier": "YWLM",
       "taf": true,
       "taf3": true,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6460"
     },
@@ -2165,7 +2165,7 @@
       "identifier": "YWLU",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 6216 2641"
     },
@@ -2175,7 +2175,7 @@
       "identifier": "YPWR",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(08) 8150 3820"
     },
@@ -2185,7 +2185,7 @@
       "identifier": "YWUD",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 8150 3821"
     },
@@ -2195,7 +2195,7 @@
       "identifier": "YWYM",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(08) 6216 2642"
     },
@@ -2205,7 +2205,7 @@
       "identifier": "YWYY",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(03) 6283 8608"
     },
@@ -2215,7 +2215,7 @@
       "identifier": "YYRM",
       "taf": false,
       "taf3": false,
-      "cilometer": false,
+      "ceilometer": false,
       "vismeter": false,
       "phone": "(03) 8470 3225"
     },
@@ -2225,7 +2225,7 @@
       "identifier": "YYNG",
       "taf": true,
       "taf3": false,
-      "cilometer": true,
+      "ceilometer": true,
       "vismeter": true,
       "phone": "(02) 9353 6462"
     }

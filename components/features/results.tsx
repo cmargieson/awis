@@ -1,3 +1,9 @@
+/**
+ * Scrollable list of aerodromes. Each row is tappable and opens the phone dialer.
+ *
+ * Data flow: IndexScreen filters DATA → passes `results` prop → we render with .map().
+ * We do not fetch or filter here; this component only displays what it is given.
+ */
 import { Linking } from 'react-native'
 import { ListItem, ScrollView, SizableText, XStack, YStack } from 'tamagui'
 
@@ -7,6 +13,10 @@ type ResultsProps = {
   results: Aerodrome[]
 }
 
+/**
+ * Opens the device dialer. Phone strings in JSON include spaces and brackets;
+ * tel: URLs work more reliably with digits only.
+ */
 function dialPhone(phone: string) {
   const digits = phone.replace(/\D/g, '')
   if (digits) {
@@ -16,8 +26,11 @@ function dialPhone(phone: string) {
 
 export default function Results({ results }: ResultsProps) {
   return (
+    // flex={1} fills space below the search bar so only this area scrolls
     <ScrollView flex={1} showsVerticalScrollIndicator={false}>
+      {/* gap="$2" adds space between each card (see per-item YStack below) */}
       <YStack gap="$2">
+        {/* key must be stable and unique — identifier is the ICAO code */}
         {results.map((item) => (
           <YStack
             key={item.identifier}
@@ -27,6 +40,7 @@ export default function Results({ results }: ResultsProps) {
             overflow="hidden"
             backgroundColor="$background"
           >
+            {/* subTitle accepts JSX — custom row with ICAO left, phone right */}
             <ListItem
               size="$4"
               title={item.name}

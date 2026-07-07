@@ -1,3 +1,13 @@
+/**
+ * Root layout — wraps every screen in the app.
+ *
+ * Expo Router calls this once at the top of the tree. Responsibilities here:
+ * - Load fonts before showing UI
+ * - Provide Tamagui + navigation themes
+ * - Define the stack navigator and header title
+ *
+ * Files in app/ become routes; files outside app/ (components/, types/) do not.
+ */
 import '../tamagui-web.css'
 
 import { useEffect } from 'react'
@@ -13,14 +23,18 @@ export {
 } from 'expo-router'
 
 export const unstable_settings = {
-  // Ensure that reloading on `/modal` keeps a back button present.
   initialRouteName: 'index',
 }
 
-// Prevent the splash screen from auto-hiding before asset loading is complete.
+// Keep the native splash visible until fonts are ready (see useEffect below)
 SplashScreen.preventAutoHideAsync()
 
 export default function RootLayout() {
+  /*
+   * useFonts returns [loaded, error]. require() tells Metro to bundle the .otf
+   * files. Until loaded is true, we render nothing so users don't see a flash
+   * of wrong fonts.
+   */
   const [interLoaded, interError] = useFonts({
     Inter: require('@tamagui/font-inter/otf/Inter-Medium.otf'),
     InterBold: require('@tamagui/font-inter/otf/Inter-Bold.otf'),
@@ -28,7 +42,6 @@ export default function RootLayout() {
 
   useEffect(() => {
     if (interLoaded || interError) {
-      // Hide the splash screen after the fonts have loaded (or an error was returned) and the UI is ready.
       SplashScreen.hideAsync()
     }
   }, [interLoaded, interError])
@@ -44,13 +57,19 @@ function RootLayoutNav() {
   const colorScheme = useColorScheme()
 
   return (
+    /*
+     * Provider order matters: outer providers wrap inner ones.
+     * Tamagui (UI) → React Navigation theme (header colors) → Stack (screens)
+     */
     <Provider>
       <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
         <Stack>
+          {/*
+           * name="index" matches app/index.tsx — options.title is the header text
+           */}
           <Stack.Screen
             name="index"
             options={{
-              // headerShown: false,
               title: 'AWIS Phonebook',
             }}
           />
