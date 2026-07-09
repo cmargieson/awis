@@ -20,12 +20,11 @@ if [[ ! -f "$SERVICE_ACCOUNT" ]]; then
   exit 1
 fi
 
-echo "==> Submitting $AAB to Google Play ($TRACK track)"
+echo "==> Submitting $AAB to Google Play (track from eas.json submit profile: $TRACK)"
 npx eas-cli submit \
   --platform android \
   --profile production \
   --path "$AAB" \
-  --track "$TRACK" \
   --non-interactive
 
 echo "==> Submit complete"
