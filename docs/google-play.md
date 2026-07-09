@@ -22,22 +22,50 @@ AWIS ships to Google Play with [EAS Build](https://docs.expo.dev/build/introduct
 1. Save the JSON key as `google-play-service-account.json` in the project root (gitignored).
 2. Log in to Expo: `npx eas-cli login`
 3. Ensure EAS has your Android signing credentials (first build will prompt or use existing keystore on Expo).
+4. Install [Docker](https://docs.docker.com/get-docker/) for local EAS builds, or use the Gradle path below.
 
 ### Commands
 
-Build a store AAB:
+**Local build (recommended)** — runs on your machine via EAS + Docker, uses signing credentials stored on Expo:
+
+```bash
+npm run build:android:local
+```
+
+Output: `release/awis-release.aab`
+
+**Local build (Gradle, no Docker)** — after exporting your upload keystore from `npx eas-cli credentials -p android` into `android/keystore.properties`:
+
+```bash
+npm run build:android:gradle
+```
+
+**Submit a local AAB** to the default track (`internal`):
+
+```bash
+npm run submit:android:local
+# or specify track: npm run submit:android:local -- release/awis-release.aab production
+```
+
+**Build and submit locally:**
+
+```bash
+npm run deploy:android:local
+```
+
+**Cloud build** on EAS servers:
 
 ```bash
 npm run build:android
 ```
 
-Build and submit to the default track (`internal`):
+**Cloud build and submit** to the default track (`internal`):
 
 ```bash
 npm run deploy:android
 ```
 
-Submit the latest production build to a specific track:
+Submit the latest cloud build to a specific track:
 
 ```bash
 npm run submit:android -- --track production

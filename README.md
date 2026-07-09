@@ -56,17 +56,21 @@ eas build --profile development --platform android
 See [docs/google-play.md](docs/google-play.md) for full setup (Play Console, service account, CI secrets).
 
 ```bash
-# Build store AAB on EAS
+# Local release build (Docker + EAS signing on your machine)
+npm run build:android:local
+
+# Submit local AAB (requires google-play-service-account.json)
+npm run submit:android:local
+
+# Build and submit locally
+npm run deploy:android:local
+
+# Cloud build on EAS
 npm run build:android
-
-# Build and submit to Google Play (default track: internal)
 npm run deploy:android
-
-# Submit latest build to a track
-npm run submit:android -- --track production
 ```
 
-Place your Play Console service account JSON at `./google-play-service-account.json` (gitignored), or use GitHub Actions with the `GOOGLE_SERVICE_ACCOUNT_KEY` secret.
+Place your Play Console service account JSON at `./google-play-service-account.json` (gitignored).
 
 ## Data
 

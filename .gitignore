@@ -46,4 +46,14 @@ node_modules
 .expo
 
 expo-*.json
+
+# Google Play / GCP service account keys
 google-play-service-account.json
+*service-account*.json
+*service_account*.json
+
+# Local Android release artifacts
+android/
+release/
+*.jks
+*.keystore
