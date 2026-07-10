@@ -12,13 +12,6 @@ Requires Node.js 22+ (see `.nvmrc`).
 npm install
 ```
 
-Connect a phone with USB debugging (or start an emulator), then:
-
-```bash
-npm run android:run   # first time / after native changes
-npm start             # JS-only changes after that
-```
-
 ## Scripts
 
 | Command | Description |
