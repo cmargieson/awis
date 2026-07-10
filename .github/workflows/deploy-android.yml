@@ -63,6 +63,7 @@ jobs:
         run: bundle exec fastlane android metadata track:${{ inputs.track }}
 
       - name: Build production AAB
+        if: inputs.submit
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
         run: npx eas-cli build --platform android --profile production --non-interactive
