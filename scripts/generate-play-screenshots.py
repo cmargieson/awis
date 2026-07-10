@@ -289,8 +289,8 @@ def main() -> None:
         ),
         (
             "04_dark_mode.png",
-            "Melbourne",
-            filter_items(data, "Melbourne")[:4],
+            "",
+            data[:7],
             True,
             "Comfortable in light or dark mode",
             False,

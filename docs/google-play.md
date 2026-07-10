@@ -110,7 +110,9 @@ Bump `expo.version` manually when releasing a new user-visible version.
 
 ## Store listing metadata (Fastlane Supply)
 
-Listing text, screenshots, and release notes live in the repo under `fastlane/metadata/android/en-AU/`. EAS Submit uploads the binary only; [Fastlane Supply](https://docs.fastlane.tools/actions/supply/) pushes store metadata.
+Listing text, screenshots, and release notes live in the repo under `fastlane/metadata/android/en-AU/` (canonical). The metadata lane mirrors that folder to `en-US` before upload so play.google.com (which often serves English as `en-US`) matches the Australian Play app listing. EAS Submit uploads the binary only; [Fastlane Supply](https://docs.fastlane.tools/actions/supply/) pushes store metadata.
+
+Supply does **not** log title/description uploads (only images and changelogs). Missing text log lines does not mean listing copy was skipped.
 
 ### One-time setup
 
@@ -163,6 +165,7 @@ Content rating, data safety, and privacy policy URL remain manual in Play Consol
 | First upload rejected | Complete Play Console checklist (privacy policy URL, etc.) |
 | Build missing dev client | Expected for production; use `development` profile for dev builds |
 | Metadata push fails | Run `npm run metadata:android:validate`; confirm service account has Release manager |
-| Wrong locale on Play | Primary listing is `en-AU` under `fastlane/metadata/android/en-AU/` |
+| Wrong locale on Play | Edit `en-AU` only; the lane mirrors to `en-US` on upload |
+| Mobile Play updated, website stale | Web often shows `en-US` while the AU Play app shows `en-AU`. Re-run metadata after the en-US mirror, then open [the AU web URL](https://play.google.com/store/apps/details?id=com.awis.app&hl=en_AU&gl=au) vs the default link. CDN cache can also lag a few hours. |
 
 Privacy policy: host `PRIVACY.md` on a public URL and link it in Play Console.

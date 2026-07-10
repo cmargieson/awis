@@ -1,6 +1,12 @@
 require "json"
+require "fileutils"
 
 default_platform(:android)
+
+METADATA_ROOT = File.expand_path("metadata/android", __dir__)
+PRIMARY_LOCALE = "en-AU"
+# play.google.com often serves en-US for English browsers; keep it in sync with en-AU.
+MIRROR_LOCALES = ["en-US"].freeze
 
 def android_version_code
   app_json_path = File.expand_path("../app.json", __dir__)
@@ -9,10 +15,23 @@ def android_version_code
   version_code
 end
 
+def sync_mirrored_locales!
+  source = File.join(METADATA_ROOT, PRIMARY_LOCALE)
+  UI.user_error!("Missing primary metadata locale: #{source}") unless File.directory?(source)
+
+  MIRROR_LOCALES.each do |locale|
+    destination = File.join(METADATA_ROOT, locale)
+    FileUtils.rm_rf(destination)
+    FileUtils.cp_r(source, destination)
+    UI.message("Synced Play listing metadata #{PRIMARY_LOCALE} → #{locale}")
+  end
+end
+
 platform :android do
   desc "Push store listing metadata only (no binary)"
   lane :metadata do |options|
     version_code = (options[:version_code] || android_version_code).to_i
+    sync_mirrored_locales!
 
     supply(
       track: options[:track] || "internal",
@@ -29,6 +48,7 @@ platform :android do
 
   desc "Validate store listing metadata without uploading"
   lane :metadata_validate do |options|
+    sync_mirrored_locales!
     supply(
       track: options[:track] || "internal",
       version_code: (options[:version_code] || android_version_code).to_i,
