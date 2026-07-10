@@ -49,11 +49,14 @@ jobs:
       - run: npm run typecheck
 
       - name: Write Google Play service account key
+        if: inputs.push_metadata || inputs.submit
         env:
           GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
         run: |
           if [ -z "$GOOGLE_SERVICE_ACCOUNT_KEY" ]; then
             echo "GOOGLE_SERVICE_ACCOUNT_KEY secret is not set."
+            echo "Add it at: Settings → Secrets and variables → Actions → New repository secret"
+            echo "Value: full contents of your Play Console service account JSON key file."
             exit 1
           fi
           printf '%s' "$GOOGLE_SERVICE_ACCOUNT_KEY" > google-play-service-account.json
@@ -81,5 +84,5 @@ jobs:
           --track "${{ inputs.track }}"
 
       - name: Remove service account key
-        if: always()
+        if: always() && (inputs.push_metadata || inputs.submit)
         run: rm -f google-play-service-account.json

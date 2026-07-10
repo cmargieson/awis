@@ -84,6 +84,16 @@ Workflow: [`.github/workflows/deploy-android.yml`](../.github/workflows/deploy-a
 | `EXPO_TOKEN` | Expo access token from [expo.dev/settings/access-tokens](https://expo.dev/settings/access-tokens) |
 | `GOOGLE_SERVICE_ACCOUNT_KEY` | Full contents of the Play Console service account JSON file |
 
+To add `GOOGLE_SERVICE_ACCOUNT_KEY`:
+
+1. Open your local `google-play-service-account.json` (or download a new key from Play Console → Setup → API access).
+2. Copy the **entire** JSON file contents (starts with `{`, ends with `}`).
+3. GitHub repo → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**
+4. Name: `GOOGLE_SERVICE_ACCOUNT_KEY`
+5. Paste the JSON as the secret value and save.
+
+Do not wrap the JSON in quotes or base64-encode it — paste the raw file contents.
+
 ### Run a deploy
 
 1. GitHub → **Actions** → **Deploy Android to Google Play** → **Run workflow**
