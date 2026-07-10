@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "npx expo start -c",
-    "android": "npx expo run:android",
+    "android": "npx expo prebuild --platform android --no-install && cd android && ./gradlew assembleDebug",
     "build:android": "npx eas-cli build --platform android --profile production"
   },
   "dependencies": {

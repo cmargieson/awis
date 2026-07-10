@@ -7,16 +7,29 @@ Built with [Expo](https://expo.dev), [Expo Router](https://docs.expo.dev/router/
 ## Prerequisites
 
 - Node.js 22+ (see `.nvmrc`)
-- [Android Studio](https://docs.expo.dev/get-started/set-up-your-environment/?platform=android&device=physical&mode=development-build&buildEnv=local) with an Android SDK, emulator, or a USB-connected device
+- [Android SDK](https://docs.expo.dev/get-started/set-up-your-environment/?platform=android&device=physical&mode=development-build&buildEnv=local) (JDK 17, `ANDROID_HOME`)
 
-This project is not compatible with Expo Go. Use a local debug build instead ([local app compilation](https://docs.expo.dev/guides/local-app-development/#local-app-compilation)).
+This project is not compatible with Expo Go. Use a local debug APK instead ([local app compilation](https://docs.expo.dev/guides/local-app-development/#local-app-compilation)).
 
 ## Setup
 
 ```bash
 npm install
-npm run android   # first time / after native changes — compiles, installs, starts Metro
-npm start         # JS-only changes after that
+npm run android   # builds a debug APK (no emulator)
+```
+
+APK path: `android/app/build/outputs/apk/debug/app-debug.apk`
+
+Install it on your phone (copy the file, or `adb install -r android/app/build/outputs/apk/debug/app-debug.apk`), then:
+
+```bash
+npm start         # Metro — live JS updates while the app is open
+```
+
+If the phone cannot reach Metro over Wi‑Fi, with USB connected:
+
+```bash
+adb reverse tcp:8081 tcp:8081
 ```
 
 | Command | When to use it |
@@ -28,8 +41,8 @@ npm start         # JS-only changes after that
 
 | Command | Description |
 |---------|-------------|
-| `npm start` | Start Metro |
-| `npm run android` | Local Android debug build + install |
+| `npm start` | Start Metro (live reload) |
+| `npm run android` | Build local debug APK only |
 | `npm run build:android` | Production Android build on EAS |
 
 ## License
