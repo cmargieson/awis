@@ -20,6 +20,3 @@ Includes major and regional aerodromes nationwide, from capital-city fields to r
 
 PRIVACY
 AWIS Phonebook does not require sign-in, does not collect personal data, and does not connect to any backend service. Your searches stay on your device.
-
-IMPORTANT
-AWIS Phonebook is a convenience directory only. Always verify phone numbers and weather information through official sources before flight. The developer is not responsible for outdated numbers or service availability.
