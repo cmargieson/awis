@@ -12,12 +12,8 @@
     "lint": "biome check .",
     "typecheck": "tsc --noEmit",
     "build:android": "eas build --platform android --profile production",
-    "build:android:local": "bash scripts/build-android-local.sh",
-    "build:android:gradle": "bash scripts/build-android-gradle.sh",
     "submit:android": "eas submit --platform android --profile production --latest",
-    "submit:android:local": "bash scripts/submit-android-local.sh",
-    "deploy:android": "eas build --platform android --profile production --auto-submit",
-    "deploy:android:local": "npm run build:android:local && npm run submit:android:local"
+    "deploy:android": "eas build --platform android --profile production --auto-submit"
   },
   "dependencies": {
     "@tamagui/config": "^2.4.1",

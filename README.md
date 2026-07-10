@@ -56,15 +56,6 @@ eas build --profile development --platform android
 See [docs/google-play.md](docs/google-play.md) for full setup (Play Console and service account).
 
 ```bash
-# Local release build (Docker + EAS signing on your machine)
-npm run build:android:local
-
-# Submit local AAB (requires google-play-service-account.json)
-npm run submit:android:local
-
-# Build and submit locally
-npm run deploy:android:local
-
 # Cloud build on EAS
 npm run build:android
 npm run deploy:android
