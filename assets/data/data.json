@@ -11,7 +11,7 @@
     },
     {
       "state": "SA",
-      "name": "Adelaide (Paraﬁeld)",
+      "name": "Adelaide (Parafield)",
       "identifier": "YPPF",
       "taf": true,
       "taf3": false,
@@ -221,7 +221,7 @@
     },
     {
       "state": "QLD",
-      "name": "Brisbane (Archerﬁeld)",
+      "name": "Brisbane (Archerfield)",
       "identifier": "YBAF",
       "taf": true,
       "taf3": false,
@@ -771,7 +771,7 @@
     },
     {
       "state": "NSW",
-      "name": "Grifﬁth",
+      "name": "Griffith",
       "identifier": "YGTH",
       "taf": true,
       "taf3": false,

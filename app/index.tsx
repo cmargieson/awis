@@ -9,9 +9,12 @@ import { YStack } from 'tamagui'
 
 import Results from '../components/Results'
 import Search from '../components/Search'
+import type { Aerodrome } from '../types/aerodrome'
 
 // Bundled at build time: the whole JSON file is included in the app binary
 import DATA from '../assets/data/data.json'
+
+const AERODROMES = DATA as Aerodrome[]
 
 export default function IndexScreen() {
   // State: when input changes, React re-renders this component and children
@@ -24,7 +27,7 @@ export default function IndexScreen() {
    */
   const results = useMemo(
     () =>
-      DATA.filter(
+      AERODROMES.filter(
         (item) =>
           item.name.toLowerCase().includes(input.toLowerCase()) ||
           item.identifier.toLowerCase().includes(input.toLowerCase())
@@ -38,7 +41,7 @@ export default function IndexScreen() {
      * gap / px / pt / pb are Tamagui spacing tokens from tamagui.config.ts
      */
     <YStack flex={1} gap="$4" px="$3" pt="$3" pb="$3">
-      <Search setInput={setInput} />
+      <Search value={input} setInput={setInput} />
       <Results results={results} />
     </YStack>
   )
