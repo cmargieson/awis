@@ -57,7 +57,3 @@ google-play-service-account.json
 release/
 *.jks
 *.keystore
-
-# Ruby / Fastlane
-vendor/bundle/
-.fastlane/
