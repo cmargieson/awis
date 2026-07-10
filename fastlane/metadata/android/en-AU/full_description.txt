@@ -1,11 +1,25 @@
-AWIS Phonebook helps pilots and aviation enthusiasts quickly find Automatic Weather Information Service (AWIS) phone numbers for aerodromes across Australia.
+Need an AWIS number before departure? AWIS Phonebook puts Automatic Weather Information Service phone numbers for Australian aerodromes in your pocket — searchable by aerodrome name or ICAO code, ready to dial in one tap.
 
-Search by aerodrome name or ICAO identifier, then tap a result to open your phone dialer. The full directory is bundled in the app, so it works offline with no account and no internet connection required.
+Built for GA pilots, instructors, and dispatchers who want a fast reference on the ramp, in the briefing room, or on the way to the airport. No account, no ads, and no internet connection required once installed.
 
-Features:
-• Search ~220 Australian aerodromes by name or ICAO code
-• One tap to dial the AWIS phone number
-• Works fully offline — no backend, no tracking, no ads
-• Light and dark mode support
+HOW IT WORKS
+1. Search by aerodrome name (e.g. Sydney) or ICAO identifier (e.g. YSSY)
+2. Tap the result you need
+3. Your phone opens the dialer with the AWIS number ready to call
 
-Built for quick reference on the ramp or in the cockpit when you need an AWIS number fast.
+FEATURES
+• 223 aerodromes across all Australian states and territories
+• Instant search as you type
+• One-tap dial — no copying numbers by hand
+• Fully offline — the directory is bundled in the app
+• Light and dark mode — follows your device setting
+• Private by design — no analytics, tracking, or data collection
+
+COVERAGE
+Includes major and regional aerodromes nationwide, from capital-city fields to remote strips. Each entry shows the aerodrome name, ICAO code, and AWIS phone number.
+
+PRIVACY
+AWIS Phonebook does not require sign-in, does not collect personal data, and does not connect to any backend service. Your searches stay on your device.
+
+IMPORTANT
+AWIS Phonebook is a convenience directory only. Always verify phone numbers and weather information through official sources before flight. The developer is not responsible for outdated numbers or service availability.

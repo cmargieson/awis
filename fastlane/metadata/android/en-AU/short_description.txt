@@ -1,1 +1,1 @@
-Find and call Australian aerodrome AWIS phone numbers. Works offline.
+223 Australian aerodromes with AWIS numbers. Search & tap to call. Offline.
