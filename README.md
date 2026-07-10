@@ -20,7 +20,6 @@ Then press `a` for Android, `i` for iOS, or `w` for web.
 | Command | Description |
 |---------|-------------|
 | `npm start` | Start Expo (clears cache) |
-| `npm run start:dev` | Start with a development build |
 | `npm run lint` | Lint with Biome |
 | `npm run typecheck` | TypeScript check |
 | `npm run build:android` | Production Android build on EAS |
