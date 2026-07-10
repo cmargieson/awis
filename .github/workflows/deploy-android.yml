@@ -18,6 +18,11 @@ on:
         required: true
         default: true
         type: boolean
+      push_metadata:
+        description: Push store listing metadata via Fastlane Supply
+        required: true
+        default: false
+        type: boolean
 
 concurrency:
   group: deploy-android
@@ -36,6 +41,11 @@ jobs:
 
       - run: npm ci
 
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
       - run: npm run typecheck
 
       - name: Write Google Play service account key
@@ -47,6 +57,10 @@ jobs:
             exit 1
           fi
           printf '%s' "$GOOGLE_SERVICE_ACCOUNT_KEY" > google-play-service-account.json
+
+      - name: Push Play Store metadata
+        if: inputs.push_metadata
+        run: bundle exec fastlane android metadata track:${{ inputs.track }}
 
       - name: Build production AAB
         env:

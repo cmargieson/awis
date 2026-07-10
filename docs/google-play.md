@@ -89,6 +89,7 @@ Workflow: [`.github/workflows/deploy-android.yml`](../.github/workflows/deploy-a
 1. GitHub → **Actions** → **Deploy Android to Google Play** → **Run workflow**
 2. Choose track (`internal`, `alpha`, `beta`, or `production`)
 3. Leave **Submit** enabled to upload after the build finishes
+4. Enable **Push store listing metadata** when listing text or screenshots changed (opt-in, default off)
 
 ## Versioning
 
@@ -96,6 +97,40 @@ Workflow: [`.github/workflows/deploy-android.yml`](../.github/workflows/deploy-a
 - **Version code**: `expo.android.versionCode` in `app.json` is the baseline; EAS **auto-increments** it on each production build (`eas.json` → `production.android.autoIncrement`)
 
 Bump `expo.version` manually when releasing a new user-visible version.
+
+## Store listing metadata (Fastlane Supply)
+
+Listing text, screenshots, and release notes live in the repo under `fastlane/metadata/android/en-AU/`. EAS Submit uploads the binary only; [Fastlane Supply](https://docs.fastlane.tools/actions/supply/) pushes store metadata.
+
+### One-time setup
+
+```bash
+bundle install
+```
+
+Uses the same `google-play-service-account.json` as EAS Submit (Release manager on the app).
+
+### Commands
+
+| Command | Purpose |
+|---------|---------|
+| `npm run metadata:android:generate` | Regenerate screenshots and graphics from app data |
+| `npm run metadata:android:validate` | Dry-run validation against Play API |
+| `npm run metadata:android` | Push metadata to the default track (`internal`) |
+| `bundle exec fastlane android metadata track:production` | Push metadata to a specific track |
+| `npm run metadata:android:init` | Pull existing Console listing into the repo (one-time sync) |
+
+Edit listing copy in:
+
+- `fastlane/metadata/android/en-AU/title.txt`
+- `fastlane/metadata/android/en-AU/short_description.txt`
+- `fastlane/metadata/android/en-AU/full_description.txt`
+
+Screenshots: `fastlane/metadata/android/en-AU/images/phoneScreenshots/`
+
+Release notes: `fastlane/metadata/android/en-AU/changelogs/<versionCode>.txt` (fallback: `default.txt`)
+
+Content rating, data safety, and privacy policy URL remain manual in Play Console.
 
 ## Troubleshooting
 
@@ -105,5 +140,7 @@ Bump `expo.version` manually when releasing a new user-visible version.
 | Package name mismatch | Play app must use `com.awis.app` |
 | First upload rejected | Complete Play Console checklist (privacy policy URL, etc.) |
 | Build missing dev client | Expected for production; use `development` profile for dev builds |
+| Metadata push fails | Run `npm run metadata:android:validate`; confirm service account has Release manager |
+| Wrong locale on Play | Primary listing is `en-AU` under `fastlane/metadata/android/en-AU/` |
 
 Privacy policy: host `PRIVACY.md` on a public URL and link it in Play Console.

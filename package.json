@@ -17,7 +17,11 @@
     "submit:android": "eas submit --platform android --profile production --latest",
     "submit:android:local": "bash scripts/submit-android-local.sh",
     "deploy:android": "eas build --platform android --profile production --auto-submit",
-    "deploy:android:local": "npm run build:android:local && npm run submit:android:local"
+    "deploy:android:local": "npm run build:android:local && npm run submit:android:local",
+    "metadata:android:generate": "python3 scripts/generate-play-screenshots.py",
+    "metadata:android": "bundle exec fastlane android metadata",
+    "metadata:android:validate": "bundle exec fastlane android metadata_validate",
+    "metadata:android:init": "bundle exec fastlane supply init --json_key google-play-service-account.json --package_name com.awis.app"
   },
   "dependencies": {
     "@tamagui/config": "^2.4.1",

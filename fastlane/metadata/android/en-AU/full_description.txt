@@ -1,0 +1,11 @@
+AWIS Phonebook helps pilots and aviation enthusiasts quickly find Automatic Weather Information Service (AWIS) phone numbers for aerodromes across Australia.
+
+Search by aerodrome name or ICAO identifier, then tap a result to open your phone dialer. The full directory is bundled in the app, so it works offline with no account and no internet connection required.
+
+Features:
+• Search ~220 Australian aerodromes by name or ICAO code
+• One tap to dial the AWIS phone number
+• Works fully offline — no backend, no tracking, no ads
+• Light and dark mode support
+
+Built for quick reference on the ramp or in the cockpit when you need an AWIS number fast.

@@ -1,0 +1,25 @@
+default_platform(:android)
+
+platform :android do
+  desc "Push store listing metadata only (no binary)"
+  lane :metadata do |options|
+    supply(
+      track: options[:track] || "internal",
+      skip_upload_apk: true,
+      skip_upload_aab: true,
+      skip_upload_metadata: false,
+      skip_upload_images: false,
+      skip_upload_screenshots: false,
+      validate_only: false
+    )
+  end
+
+  desc "Validate store listing metadata without uploading"
+  lane :metadata_validate do
+    supply(
+      skip_upload_apk: true,
+      skip_upload_aab: true,
+      validate_only: true
+    )
+  end
+end
