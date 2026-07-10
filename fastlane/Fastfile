@@ -1,22 +1,37 @@
+require "json"
+
 default_platform(:android)
+
+def android_version_code
+  app_json_path = File.expand_path("../app.json", __dir__)
+  version_code = JSON.parse(File.read(app_json_path)).dig("expo", "android", "versionCode")
+  UI.user_error!("expo.android.versionCode not set in app.json") unless version_code
+  version_code
+end
 
 platform :android do
   desc "Push store listing metadata only (no binary)"
   lane :metadata do |options|
+    version_code = (options[:version_code] || android_version_code).to_i
+
     supply(
       track: options[:track] || "internal",
+      version_code: version_code,
       skip_upload_apk: true,
       skip_upload_aab: true,
       skip_upload_metadata: false,
       skip_upload_images: false,
       skip_upload_screenshots: false,
+      skip_upload_changelogs: [true, "true"].include?(options[:skip_changelogs]),
       validate_only: false
     )
   end
 
   desc "Validate store listing metadata without uploading"
-  lane :metadata_validate do
+  lane :metadata_validate do |options|
     supply(
+      track: options[:track] || "internal",
+      version_code: (options[:version_code] || android_version_code).to_i,
       skip_upload_apk: true,
       skip_upload_aab: true,
       validate_only: true

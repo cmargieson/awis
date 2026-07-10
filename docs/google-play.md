@@ -140,6 +140,18 @@ Screenshots: `fastlane/metadata/android/en-AU/images/phoneScreenshots/`
 
 Release notes: `fastlane/metadata/android/en-AU/changelogs/<versionCode>.txt` (fallback: `default.txt`)
 
+Supply reads `versionCode` from `app.json` when uploading release notes. If the version on your Play track differs (e.g. EAS auto-incremented past the value in `app.json`), pass the track’s version explicitly:
+
+```bash
+bundle exec fastlane android metadata track:internal version_code:14
+```
+
+To push listing copy and images without touching release notes:
+
+```bash
+bundle exec fastlane android metadata track:internal skip_changelogs:true
+```
+
 Content rating, data safety, and privacy policy URL remain manual in Play Console.
 
 ## Troubleshooting
