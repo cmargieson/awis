@@ -1,5 +1,8 @@
 {
   "$schema": "https://biomejs.dev/schemas/1.5.1/schema.json",
+  "files": {
+    "ignore": [".expo/**", "expo-env.d.ts", ".tamagui/**"]
+  },
   "organizeImports": {
     "enabled": false
   },

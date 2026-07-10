@@ -55,13 +55,13 @@ if (!gradle.includes('signingConfigs')) {
 gradle = signingBlock + gradle
 gradle = gradle.replace(
   /(signingConfigs\s*\{[\s\S]*?debug\s*\{[\s\S]*?\})/,
-  `$1${releaseSigningConfig}`,
+  `$1${releaseSigningConfig}`
 )
 
 gradle = gradle.replace(
   /(buildTypes\s*\{\s*release\s*\{)/,
-  '$1\n            signingConfig signingConfigs.release',
+  '$1\n            signingConfig signingConfigs.release'
 )
 
 fs.writeFileSync(buildGradle, gradle)
-console.log('Patched android/app/build.gradle for release signing')
+console.info('Patched android/app/build.gradle for release signing')
