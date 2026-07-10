@@ -5,14 +5,13 @@
   "scripts": {
     "upgrade:tamagui": "npm update tamagui @tamagui/config @tamagui/babel-plugin @tamagui/metro-plugin",
     "start": "npx expo start -c",
-    "start:dev": "npx expo start --dev-client -c",
     "android": "npx expo start --android",
+    "android:run": "npx expo run:android",
     "ios": "npx expo start --ios",
     "web": "npx expo start --web",
     "lint": "biome check .",
     "typecheck": "tsc --noEmit",
     "build:android": "npx eas-cli build --platform android --profile production",
-    "build:android:dev": "npx eas-cli build --platform android --profile development",
     "submit:android": "npx eas-cli submit --platform android --profile production --latest",
     "deploy:android": "npx eas-cli build --platform android --profile production --auto-submit"
   },
@@ -22,7 +21,6 @@
     "@tamagui/font-inter": "^2.4.1",
     "expo": "~57.0.4",
     "expo-constants": "~57.0.3",
-    "expo-dev-client": "~57.0.5",
     "expo-font": "~57.0.0",
     "expo-linking": "~57.0.2",
     "expo-router": "~57.0.4",
