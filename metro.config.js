@@ -5,17 +5,10 @@
 const { getDefaultConfig } = require('expo/metro-config')
 const { withTamagui } = require('@tamagui/metro-plugin')
 
-const config = withTamagui(
-  getDefaultConfig(__dirname, {
-    // [Web-only]: Enables CSS support in Metro.
-    isCSSEnabled: true,
-  }),
-  {
-    components: ['tamagui'],
-    config: './tamagui.config.ts',
-    outputCSS: './tamagui-web.css',
-  }
-)
+const config = withTamagui(getDefaultConfig(__dirname), {
+  components: ['tamagui'],
+  config: './tamagui.config.ts',
+})
 
 config.resolver.sourceExts.push('mjs')
 

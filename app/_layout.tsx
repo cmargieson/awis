@@ -8,8 +8,6 @@
  *
  * Files in app/ become routes; files outside app/ (components/, types/) do not.
  */
-import '../tamagui-web.css'
-
 import { useEffect } from 'react'
 import { useColorScheme } from 'react-native'
 import { DarkTheme, DefaultTheme, ThemeProvider } from 'expo-router/react-navigation'
