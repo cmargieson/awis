@@ -3,17 +3,9 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
-    "upgrade:tamagui": "npm update tamagui @tamagui/config @tamagui/babel-plugin @tamagui/metro-plugin",
     "start": "npx expo start -c",
-    "android": "npx expo start --android",
-    "android:run": "npx expo run:android",
-    "ios": "npx expo start --ios",
-    "web": "npx expo start --web",
-    "lint": "biome check .",
-    "typecheck": "tsc --noEmit",
-    "build:android": "npx eas-cli build --platform android --profile production",
-    "submit:android": "npx eas-cli submit --platform android --profile production --latest",
-    "deploy:android": "npx eas-cli build --platform android --profile production --auto-submit"
+    "android": "npx expo run:android",
+    "build:android": "npx eas-cli build --platform android --profile production"
   },
   "dependencies": {
     "@tamagui/config": "^2.4.1",

@@ -10,6 +10,8 @@ Requires Node.js 22+ (see `.nvmrc`).
 
 ```bash
 npm install
+npm run android   # first time / after native changes
+npm start         # JS-only changes after that
 ```
 
 ## Scripts
@@ -17,11 +19,8 @@ npm install
 | Command | Description |
 |---------|-------------|
 | `npm start` | Start Metro |
-| `npm run android:run` | Local Android debug build + install |
-| `npm run lint` | Lint with Biome |
-| `npm run typecheck` | TypeScript check |
+| `npm run android` | Local Android debug build + install |
 | `npm run build:android` | Production Android build on EAS |
-| `npm run deploy:android` | Build and submit to Google Play |
 
 ## License
 
