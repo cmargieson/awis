@@ -62,10 +62,6 @@ npm run build:android:local
 # Submit local AAB (requires google-play-service-account.json)
 npm run submit:android:local
 
-# Push store listing metadata (text, screenshots, release notes)
-bundle install   # first time only
-npm run metadata:android
-
 # Build and submit locally
 npm run deploy:android:local
 

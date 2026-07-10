@@ -1,1 +1,0 @@
-Initial release — offline AWIS phone directory for 223 Australian aerodromes.

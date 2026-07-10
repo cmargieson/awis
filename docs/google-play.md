@@ -99,7 +99,6 @@ Do not wrap the JSON in quotes or base64-encode it — paste the raw file conten
 1. GitHub → **Actions** → **Deploy Android to Google Play** → **Run workflow**
 2. Choose track (`internal`, `alpha`, `beta`, or `production`)
 3. Leave **Submit** enabled to upload after the build finishes
-4. Enable **Push store listing metadata** when listing text or screenshots changed (opt-in, default off)
 
 ## Versioning
 
@@ -108,53 +107,9 @@ Do not wrap the JSON in quotes or base64-encode it — paste the raw file conten
 
 Bump `expo.version` manually when releasing a new user-visible version.
 
-## Store listing metadata (Fastlane Supply)
+## Store listing
 
-Listing text, screenshots, and release notes live in the repo under `fastlane/metadata/android/en-AU/` (canonical). The metadata lane mirrors that folder to `en-US` before upload so play.google.com (which often serves English as `en-US`) matches the Australian Play app listing. EAS Submit uploads the binary only; [Fastlane Supply](https://docs.fastlane.tools/actions/supply/) pushes store metadata.
-
-Supply does **not** log title/description uploads (only images and changelogs). Missing text log lines does not mean listing copy was skipped.
-
-### One-time setup
-
-```bash
-bundle install
-```
-
-Uses the same `google-play-service-account.json` as EAS Submit (Release manager on the app).
-
-### Commands
-
-| Command | Purpose |
-|---------|---------|
-| `npm run metadata:android:generate` | Regenerate screenshots and graphics from app data |
-| `npm run metadata:android:validate` | Dry-run validation against Play API |
-| `npm run metadata:android` | Push metadata to the default track (`internal`) |
-| `bundle exec fastlane android metadata track:production` | Push metadata to a specific track |
-| `npm run metadata:android:init` | Pull existing Console listing into the repo (one-time sync) |
-
-Edit listing copy in:
-
-- `fastlane/metadata/android/en-AU/title.txt`
-- `fastlane/metadata/android/en-AU/short_description.txt`
-- `fastlane/metadata/android/en-AU/full_description.txt`
-
-Screenshots: `fastlane/metadata/android/en-AU/images/phoneScreenshots/`
-
-Release notes: `fastlane/metadata/android/en-AU/changelogs/<versionCode>.txt` (fallback: `default.txt`)
-
-Supply reads `versionCode` from `app.json` when uploading release notes. If the version on your Play track differs (e.g. EAS auto-incremented past the value in `app.json`), pass the track’s version explicitly:
-
-```bash
-bundle exec fastlane android metadata track:internal version_code:14
-```
-
-To push listing copy and images without touching release notes:
-
-```bash
-bundle exec fastlane android metadata track:internal skip_changelogs:true
-```
-
-Content rating, data safety, and privacy policy URL remain manual in Play Console.
+Manage listing text, screenshots, and release notes manually in [Google Play Console](https://play.google.com/console). EAS Submit uploads the binary only.
 
 ## Troubleshooting
 
@@ -164,8 +119,5 @@ Content rating, data safety, and privacy policy URL remain manual in Play Consol
 | Package name mismatch | Play app must use `com.awis.app` |
 | First upload rejected | Complete Play Console checklist (privacy policy URL, etc.) |
 | Build missing dev client | Expected for production; use `development` profile for dev builds |
-| Metadata push fails | Run `npm run metadata:android:validate`; confirm service account has Release manager |
-| Wrong locale on Play | Edit `en-AU` only; the lane mirrors to `en-US` on upload |
-| Mobile Play updated, website stale | Web often shows `en-US` while the AU Play app shows `en-AU`. Re-run metadata after the en-US mirror, then open [the AU web URL](https://play.google.com/store/apps/details?id=com.awis.app&hl=en_AU&gl=au) vs the default link. CDN cache can also lag a few hours. |
 
 Privacy policy: host `PRIVACY.md` on a public URL and link it in Play Console.
