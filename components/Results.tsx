@@ -7,7 +7,7 @@
 import { Linking } from 'react-native'
 import { ListItem, ScrollView, SizableText, XStack, YStack } from 'tamagui'
 
-import type { Aerodrome } from '../../types/aerodrome'
+import type { Aerodrome } from '../types/aerodrome'
 
 type ResultsProps = {
   results: Aerodrome[]

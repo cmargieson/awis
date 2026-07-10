@@ -7,8 +7,8 @@
 import { useMemo, useState } from 'react'
 import { YStack } from 'tamagui'
 
-import Results from '../components/features/results'
-import Search from '../components/features/search'
+import Results from '../components/Results'
+import Search from '../components/Search'
 
 // Bundled at build time: the whole JSON file is included in the app binary
 import DATA from '../assets/data/data.json'
