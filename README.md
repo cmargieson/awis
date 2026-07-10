@@ -53,7 +53,7 @@ eas build --profile development --platform android
 
 ## Google Play deployment
 
-See [docs/google-play.md](docs/google-play.md) for full setup (Play Console, service account, CI secrets).
+See [docs/google-play.md](docs/google-play.md) for full setup (Play Console and service account).
 
 ```bash
 # Local release build (Docker + EAS signing on your machine)

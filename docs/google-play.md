@@ -4,7 +4,7 @@ AWIS ships to Google Play with [EAS Build](https://docs.expo.dev/build/introduct
 
 - **Package:** `com.awis.app`
 - **Artifact:** Android App Bundle (`.aab`)
-- **Default track:** `internal` (change in `eas.json` or the GitHub Action)
+- **Default track:** `internal` (change in `eas.json` or pass `--track` on submit)
 
 ## One-time Google Play Console setup
 
@@ -72,33 +72,6 @@ npm run submit:android -- --track production
 ```
 
 Production builds **exclude** `expo-dev-client` automatically (see `app.config.js`).
-
-## GitHub Actions deployment
-
-Workflow: [`.github/workflows/deploy-android.yml`](../.github/workflows/deploy-android.yml)
-
-### Repository secrets
-
-| Secret | Description |
-|--------|-------------|
-| `EXPO_TOKEN` | Expo access token from [expo.dev/settings/access-tokens](https://expo.dev/settings/access-tokens) |
-| `GOOGLE_SERVICE_ACCOUNT_KEY` | Full contents of the Play Console service account JSON file |
-
-To add `GOOGLE_SERVICE_ACCOUNT_KEY`:
-
-1. Open your local `google-play-service-account.json` (or download a new key from Play Console → Setup → API access).
-2. Copy the **entire** JSON file contents (starts with `{`, ends with `}`).
-3. GitHub repo → **Settings** → **Secrets and variables** → **Actions** → **New repository secret**
-4. Name: `GOOGLE_SERVICE_ACCOUNT_KEY`
-5. Paste the JSON as the secret value and save.
-
-Do not wrap the JSON in quotes or base64-encode it — paste the raw file contents.
-
-### Run a deploy
-
-1. GitHub → **Actions** → **Deploy Android to Google Play** → **Run workflow**
-2. Choose track (`internal`, `alpha`, `beta`, or `production`)
-3. Leave **Submit** enabled to upload after the build finishes
 
 ## Versioning
 
