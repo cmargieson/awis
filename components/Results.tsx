@@ -25,10 +25,7 @@ async function dialPhone(phone: string) {
 
   const url = `tel:${digits}`
   try {
-    const supported = await Linking.canOpenURL(url)
-    if (supported) {
-      await Linking.openURL(url)
-    }
+    await Linking.openURL(url)
   } catch {
     // Dialer unavailable (e.g. web) — ignore
   }
