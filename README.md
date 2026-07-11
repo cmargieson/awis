@@ -7,34 +7,26 @@ Built with [Expo](https://expo.dev), [Expo Router](https://docs.expo.dev/router/
 ## Prerequisites
 
 - Node.js 22+ (see `.nvmrc`)
-- [Android SDK](https://docs.expo.dev/get-started/set-up-your-environment/?platform=android&device=physical&mode=development-build&buildEnv=local) (JDK 17, `ANDROID_HOME`)
+- An [Expo](https://expo.dev) account (`npx eas-cli login`)
 
-This project is not compatible with Expo Go. Use a local debug APK instead ([local app compilation](https://docs.expo.dev/guides/local-app-development/#local-app-compilation)).
+Native builds run on [EAS Build](https://docs.expo.dev/build/introduction/). You do not need the Android SDK or JDK locally.
 
 ## Setup
 
 ```bash
 npm install
-npm run android   # builds a debug APK (no emulator)
+npm run android   # EAS cloud development build (APK)
 ```
 
-APK path: `android/app/build/outputs/apk/debug/app-debug.apk`
-
-Install it on your phone (copy the file, or `adb install -r android/app/build/outputs/apk/debug/app-debug.apk`), then:
+When the build finishes, install the APK from the Expo dashboard (or the install link / QR code EAS prints). Then:
 
 ```bash
 npm start         # Metro — live JS updates while the app is open
 ```
 
-If the phone cannot reach Metro over Wi‑Fi, with USB connected:
-
-```bash
-adb reverse tcp:8081 tcp:8081
-```
-
 | Command | When to use it |
 |---------|----------------|
-| `npm run android` | First build, after adding a native library, or after changing a config plugin |
+| `npm run android` | First install, after adding a native library, or after changing a config plugin / native `app.json` fields |
 | `npm start` | Daily development when only changing JavaScript or TypeScript |
 
 ## Scripts
@@ -42,8 +34,8 @@ adb reverse tcp:8081 tcp:8081
 | Command | Description |
 |---------|-------------|
 | `npm start` | Start Metro (live reload) |
-| `npm run android` | Build local debug APK only |
-| `npm run build:android` | Production Android build on EAS |
+| `npm run android` | Development client APK on EAS |
+| `npm run build:android` | Production Android AAB on EAS |
 
 ## License
 
