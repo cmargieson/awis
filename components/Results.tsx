@@ -1,11 +1,11 @@
 /**
  * Scrollable list of aerodromes. Each row is tappable and opens the phone dialer.
  *
- * Data flow: IndexScreen filters DATA → passes `results` prop → we render with FlatList.
+ * Data flow: IndexScreen filters DATA → passes `results` prop → we render with ScrollView.
  * We do not fetch or filter here; this component only displays what it is given.
  */
-import { FlatList, Linking } from 'react-native'
-import { ListItem, SizableText, XStack, YStack } from 'tamagui'
+import { Linking } from 'react-native'
+import { ListItem, ScrollView, SizableText, XStack, YStack } from 'tamagui'
 
 import type { Aerodrome } from '../types/aerodrome'
 
@@ -101,18 +101,14 @@ export default function Results({ results }: ResultsProps) {
   }
 
   /*
-   * FlatList virtualizes rows (only mounts what’s on screen) — better than
-   * mapping every item into Views for long lists. style flex:1 fills space
-   * below the search bar so only this area scrolls. keyExtractor gives React
-   * a stable id per row; identifier (ICAO) is unique in our data.
+   * ScrollView + map fills space below the search bar so only this area
+   * scrolls. identifier (ICAO) is unique in our data and used as key.
    */
   return (
-    <FlatList
-      style={{ flex: 1 }}
-      data={results}
-      keyExtractor={(item) => item.identifier}
-      showsVerticalScrollIndicator={false}
-      renderItem={({ item }) => <AerodromeRow item={item} />}
-    />
+    <ScrollView flex={1} showsVerticalScrollIndicator={false}>
+      {results.map((item) => (
+        <AerodromeRow key={item.identifier} item={item} />
+      ))}
+    </ScrollView>
   )
 }
