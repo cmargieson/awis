@@ -21,6 +21,7 @@ export default function Search({ value, setInput }: SearchProps) {
       borderRadius="$4"
       borderWidth={1}
       value={value}
+      // onChangeText (RN) passes the new string; onChange (web) would pass an event
       onChangeText={setInput}
       placeholder="Search aerodromes"
     />

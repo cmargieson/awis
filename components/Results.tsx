@@ -14,10 +14,15 @@ type ResultsProps = {
 }
 
 /**
- * Opens the device dialer. Phone strings in JSON include spaces and brackets;
- * tel: URLs work more reliably with digits only.
+ * Opens the device dialer with a tel: URL.
+ *
+ * Phone strings in JSON include spaces and brackets; strip non-digits so the
+ * URL is reliable. We call openURL directly (no canOpenURL check): on Android
+ * 11+, canOpenURL('tel:...') returns false unless the app declares a tel
+ * intent query, which would silently block dialing.
  */
 async function dialPhone(phone: string) {
+  // \D = "not a digit" — keep 0–9 only
   const digits = phone.replace(/\D/g, '')
   if (!digits) {
     return
@@ -31,6 +36,7 @@ async function dialPhone(phone: string) {
   }
 }
 
+/** One aerodrome card: name, ICAO code, phone; tap calls dialPhone. */
 function AerodromeRow({ item }: { item: Aerodrome }) {
   return (
     <YStack
@@ -83,6 +89,7 @@ function AerodromeRow({ item }: { item: Aerodrome }) {
 }
 
 export default function Results({ results }: ResultsProps) {
+  // Empty state when the search filter matches nothing
   if (results.length === 0) {
     return (
       <YStack flex={1} justifyContent="center" alignItems="center" px="$4">
@@ -93,7 +100,12 @@ export default function Results({ results }: ResultsProps) {
     )
   }
 
-  // flex={1} fills space below the search bar so only this area scrolls
+  /*
+   * FlatList virtualizes rows (only mounts what’s on screen) — better than
+   * mapping every item into Views for long lists. style flex:1 fills space
+   * below the search bar so only this area scrolls. keyExtractor gives React
+   * a stable id per row; identifier (ICAO) is unique in our data.
+   */
   return (
     <FlatList
       style={{ flex: 1 }}

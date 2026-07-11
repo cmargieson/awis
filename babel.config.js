@@ -1,4 +1,10 @@
+/**
+ * Babel transforms modern JS/TS/JSX into code the JS engine can run.
+ * Expo’s preset handles React Native; Tamagui’s plugin optimizes UI at build
+ * time. reanimated/plugin must stay last in the plugins list.
+ */
 module.exports = (api) => {
+  // Cache the config so Babel does not recompute it on every file
   api.cache(true)
   return {
     presets: [['babel-preset-expo', { jsxRuntime: 'automatic' }]],
@@ -9,6 +15,7 @@ module.exports = (api) => {
           components: ['tamagui'],
           config: './tamagui.config.ts',
           logTimings: true,
+          // Skip compile-time extraction in dev for faster refresh
           disableExtraction: process.env.NODE_ENV === 'development',
         },
       ],
