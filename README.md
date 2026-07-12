@@ -36,6 +36,24 @@ npm start         # Metro — live JS updates while the app is open
 | `npm start` | Start Metro (live reload) |
 | `npm run android` | Development client APK on EAS |
 | `npm run build:android` | Production Android AAB on EAS |
+| `npx eas-cli submit --platform android --profile production` | Upload the latest production AAB to Google Play (internal track) |
+
+## Submit to Google Play
+
+1. Place a Play Console service account JSON key at `google-play-service-account.json` (gitignored).
+2. Build a store AAB:
+
+```bash
+npm run build:android
+```
+
+3. Submit it:
+
+```bash
+npx eas-cli submit --platform android --profile production
+```
+
+This uses the `production` submit profile in `eas.json` (internal track, `completed` release status). Promote the build in [Play Console](https://play.google.com/console) when ready for wider release.
 
 ## License
 
