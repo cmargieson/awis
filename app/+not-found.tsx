@@ -5,21 +5,23 @@
  * +not-found and +html). Link href="/" sends them back to app/index.tsx.
  */
 import { Link, Stack } from 'expo-router'
-import { View, Text } from 'tamagui'
+import { SizableText, YStack } from 'tamagui'
 
 export default function NotFoundScreen() {
   return (
     <>
       {/* Override the stack header title for this screen only */}
       <Stack.Screen options={{ title: 'Oops!' }} />
-      <View margin={10}>
-        <Text>This screen doesn't exist.</Text>
+      <YStack m="$3" gap="$2">
+        <SizableText size="$4" color="$color">
+          This screen doesn't exist.
+        </SizableText>
         <Link href="/">
-          <Text mt={15} py={15} fontSize={14} color="#2e78b7">
+          <SizableText size="$4" color="$blue10" mt="$3" py="$3">
             Go to home screen!
-          </Text>
+          </SizableText>
         </Link>
-      </View>
+      </YStack>
     </>
   )
 }
