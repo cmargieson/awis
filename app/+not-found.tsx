@@ -5,23 +5,39 @@
  * +not-found and +html). Link href="/" sends them back to app/index.tsx.
  */
 import { Link, Stack } from 'expo-router'
-import { SizableText, YStack } from 'tamagui'
+import { Text, View } from 'react-native'
+import { StyleSheet } from 'react-native-unistyles'
 
 export default function NotFoundScreen() {
   return (
     <>
       {/* Override the stack header title for this screen only */}
       <Stack.Screen options={{ title: 'Oops!' }} />
-      <YStack m="$3" gap="$2">
-        <SizableText size="$4" color="$color">
-          This screen doesn't exist.
-        </SizableText>
-        <Link href="/">
-          <SizableText size="$4" color="$blue10" mt="$3" py="$3">
-            Go to home screen!
-          </SizableText>
+      <View style={styles.container}>
+        <Text style={styles.text}>This screen doesn't exist.</Text>
+        <Link href="/" style={styles.link}>
+          <Text style={styles.linkText}>Go to home screen!</Text>
         </Link>
-      </YStack>
+      </View>
     </>
   )
 }
+
+const styles = StyleSheet.create((theme) => ({
+  container: {
+    margin: 12,
+    gap: 8,
+  },
+  text: {
+    fontSize: 16,
+    color: theme.colors.text,
+  },
+  link: {
+    marginTop: 12,
+    paddingVertical: 12,
+  },
+  linkText: {
+    fontSize: 16,
+    color: theme.colors.accent,
+  },
+}))

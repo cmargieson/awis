@@ -5,7 +5,8 @@
  * so it becomes the "/" screen (the first tab/stack screen users see).
  */
 import { useMemo, useState } from 'react'
-import { YStack } from 'tamagui'
+import { View } from 'react-native'
+import { StyleSheet } from 'react-native-unistyles'
 
 import Results from '../components/Results'
 import Search from '../components/Search'
@@ -36,13 +37,19 @@ export default function IndexScreen() {
   )
 
   return (
-    /*
-     * YStack = vertical stack (column). flex={1} fills the screen height.
-     * gap / px / pt / pb are Tamagui spacing tokens from tamagui.config.ts
-     */
-    <YStack flex={1} gap="$4" px="$3" pt="$3" pb="$3">
+    <View style={styles.container}>
       <Search value={input} setInput={setInput} />
       <Results results={results} />
-    </YStack>
+    </View>
   )
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    gap: 16,
+    paddingHorizontal: 12,
+    paddingTop: 12,
+    paddingBottom: 12,
+  },
+})

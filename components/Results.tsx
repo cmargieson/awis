@@ -4,8 +4,8 @@
  * Data flow: IndexScreen filters DATA → passes `results` prop → we render with ScrollView.
  * We do not fetch or filter here; this component only displays what it is given.
  */
-import { Linking } from 'react-native'
-import { ListItem, ScrollView, SizableText, XStack, YStack } from 'tamagui'
+import { Linking, Pressable, ScrollView, Text, View } from 'react-native'
+import { StyleSheet } from 'react-native-unistyles'
 
 import type { Aerodrome } from '../types/aerodrome'
 
@@ -39,52 +39,20 @@ async function dialPhone(phone: string) {
 /** One aerodrome card: name, ICAO code, phone; tap calls dialPhone. */
 function AerodromeRow({ item }: { item: Aerodrome }) {
   return (
-    <YStack
-      borderRadius="$4"
-      borderWidth={1}
-      borderColor="$borderColor"
-      overflow="hidden"
-      backgroundColor="$background"
-      marginBottom="$2"
+    <Pressable
+      style={styles.row}
+      accessibilityRole="button"
+      accessibilityLabel={`Call AWIS for ${item.name}`}
+      onPress={() => dialPhone(item.phone)}
     >
-      {/* subTitle accepts JSX — custom row with ICAO left, phone right */}
-      <ListItem
-        size="$4"
-        title={item.name}
-        accessibilityRole="button"
-        accessibilityLabel={`Call AWIS for ${item.name}`}
-        subTitle={
-          <XStack
-            flex={1}
-            alignSelf="stretch"
-            justifyContent="space-between"
-            alignItems="center"
-            mt="$1"
-            gap="$3"
-          >
-            <SizableText
-              size="$3"
-              color="$color"
-              opacity={0.6}
-              flexShrink={1}
-              numberOfLines={1}
-            >
-              {item.identifier}
-            </SizableText>
-            <SizableText
-              size="$3"
-              color="$color"
-              opacity={0.6}
-              flexShrink={0}
-              textAlign="right"
-            >
-              {item.phone}
-            </SizableText>
-          </XStack>
-        }
-        onPress={() => dialPhone(item.phone)}
-      />
-    </YStack>
+      <Text style={styles.title}>{item.name}</Text>
+      <View style={styles.meta}>
+        <Text style={styles.metaText} numberOfLines={1}>
+          {item.identifier}
+        </Text>
+        <Text style={[styles.metaText, styles.phone]}>{item.phone}</Text>
+      </View>
+    </Pressable>
   )
 }
 
@@ -92,11 +60,9 @@ export default function Results({ results }: ResultsProps) {
   // Empty state when the search filter matches nothing
   if (results.length === 0) {
     return (
-      <YStack flex={1} justifyContent="center" alignItems="center" px="$4">
-        <SizableText size="$4" color="$color" opacity={0.6} textAlign="center">
-          No aerodromes found
-        </SizableText>
-      </YStack>
+      <View style={styles.empty}>
+        <Text style={styles.emptyText}>No aerodromes found</Text>
+      </View>
     )
   }
 
@@ -105,10 +71,56 @@ export default function Results({ results }: ResultsProps) {
    * scrolls. identifier (ICAO) is unique in our data and used as key.
    */
   return (
-    <ScrollView flex={1} showsVerticalScrollIndicator={false}>
+    <ScrollView style={styles.list} showsVerticalScrollIndicator={false}>
       {results.map((item) => (
         <AerodromeRow key={item.identifier} item={item} />
       ))}
     </ScrollView>
   )
 }
+
+const styles = StyleSheet.create((theme) => ({
+  list: {
+    flex: 1,
+  },
+  row: {
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: theme.colors.border,
+    backgroundColor: theme.colors.background,
+    marginBottom: 8,
+    paddingHorizontal: 16,
+    paddingVertical: 14,
+  },
+  title: {
+    fontSize: 16,
+    color: theme.colors.text,
+  },
+  meta: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    marginTop: 4,
+    gap: 12,
+  },
+  metaText: {
+    fontSize: 14,
+    color: theme.colors.textMuted,
+    flexShrink: 1,
+  },
+  phone: {
+    flexShrink: 0,
+    textAlign: 'right',
+  },
+  empty: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 16,
+  },
+  emptyText: {
+    fontSize: 16,
+    color: theme.colors.textMuted,
+    textAlign: 'center',
+  },
+}))

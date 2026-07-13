@@ -3,9 +3,10 @@
  * reports changes via setInput.
  *
  * "Controlled component": value lives in IndexScreen's useState, not inside
- * Input. That lets the same input drive filtering in useMemo on the parent.
+ * TextInput. That lets the same input drive filtering in useMemo on the parent.
  */
-import { Input } from 'tamagui'
+import { TextInput } from 'react-native'
+import { StyleSheet, useUnistyles } from 'react-native-unistyles'
 
 type SearchProps = {
   /** Current search text owned by the parent */
@@ -15,15 +16,29 @@ type SearchProps = {
 }
 
 export default function Search({ value, setInput }: SearchProps) {
+  const { theme } = useUnistyles()
+
   return (
-    <Input
-      size="$4"
-      borderRadius="$4"
-      borderWidth={1}
+    <TextInput
+      style={styles.input}
       value={value}
       // onChangeText (RN) passes the new string; onChange (web) would pass an event
       onChangeText={setInput}
       placeholder="Search aerodromes"
+      placeholderTextColor={theme.colors.textMuted}
     />
   )
 }
+
+const styles = StyleSheet.create((theme) => ({
+  input: {
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: theme.colors.border,
+    backgroundColor: theme.colors.background,
+    color: theme.colors.text,
+    fontSize: 16,
+    paddingHorizontal: 12,
+    paddingVertical: 12,
+  },
+}))
