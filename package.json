@@ -3,9 +3,16 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
-    "start": "npx expo start -c",
-    "android": "npx eas-cli build --platform android --profile development",
-    "build:android": "npx eas-cli build --platform android --profile production"
+    "dev": "expo start -c --dev-client",
+    "android": "expo start -c --android --dev-client",
+    "ios": "expo start -c --ios --dev-client",
+    "web": "expo start -c --web",
+    "build:dev": "eas build --profile development",
+    "build:dev:android": "eas build --profile development --platform android",
+    "build:dev:ios": "eas build --profile development --platform ios",
+    "build:preview": "eas build --profile preview",
+    "build:production": "eas build --profile production",
+    "clean": "rm -rf .expo node_modules"
   },
   "dependencies": {
     "@rn-primitives/portal": "^1.5.2",
