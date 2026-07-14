@@ -2,7 +2,7 @@
 
 Search Australian aerodromes and dial AWIS (Automatic Weather Information Service) phone numbers. Works offline — aerodrome data is bundled in the app.
 
-Built with [Expo](https://expo.dev), [Expo Router](https://docs.expo.dev/router/introduction/), and [Unistyles](https://www.unistyl.es/). Android only for now (iOS later).
+Built with [Expo](https://expo.dev), [Expo Router](https://docs.expo.dev/router/introduction/), [Uniwind](https://docs.uniwind.dev/), and [React Native Reusables](https://reactnativereusables.com/). Android only for now (iOS later).
 
 ## Prerequisites
 

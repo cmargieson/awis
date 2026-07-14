@@ -1,8 +1,6 @@
 /**
- * Web static rendering root. Import Unistyles so each static page initializes themes.
+ * Web static rendering root.
  */
-import '../unistyles'
-
 import { ScrollViewStyleReset } from 'expo-router/html'
 import type { PropsWithChildren } from 'react'
 
