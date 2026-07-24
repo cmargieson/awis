@@ -1,68 +1,62 @@
-# AWIS
+# Welcome to your Expo app 👋
 
-Search Australian aerodromes and dial AWIS (Automatic Weather Information Service) phone numbers. Works offline — aerodrome data is bundled in the app.
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-Built with [Expo](https://expo.dev), [Expo Router](https://docs.expo.dev/router/introduction/), [Uniwind](https://docs.uniwind.dev/), and [React Native Reusables](https://reactnativereusables.com/). Android only for now (iOS later).
+## Get started
 
-## Prerequisites
+1. Install dependencies
 
-- Node.js 22+ (see `.nvmrc`)
-- An [Expo](https://expo.dev) account (`npx eas-cli login`)
+   ```bash
+   npm install
+   ```
 
-Native builds run on [EAS Build](https://docs.expo.dev/build/introduction/). You do not need the Android SDK or JDK locally.
+2. Start the app
 
-## Setup
+   ```bash
+   npx expo start
+   ```
 
-```bash
-npm install
-npm run build:dev:android   # EAS cloud development build (APK)
-```
+3. Build a development Android app
 
-When the build finishes, install the APK from the Expo dashboard (or the install link / QR code EAS prints). Then:
+   ```bash
+   npx eas-cli build --profile development --platform android
+   ```
 
-```bash
-npm run dev   # Metro — live JS updates while the app is open
-```
+In the output, you'll find options to open the app in a
 
-| Command | When to use it |
-|---------|----------------|
-| `npm run build:dev:android` | First install, after adding a native library, or after changing a config plugin / native `app.json` fields |
-| `npm run dev` | Daily development when only changing JavaScript or TypeScript |
-| `npm run android` | Same as `dev`, but also open on a connected Android device/emulator |
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-## Scripts
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start Metro with the development client |
-| `npm run android` | Start Metro and open on Android |
-| `npm run ios` | Start Metro and open on iOS |
-| `npm run web` | Start Metro for web |
-| `npm run build:dev` | Development client build on EAS (all platforms) |
-| `npm run build:dev:android` | Development client APK on EAS |
-| `npm run build:dev:ios` | Development client build for iOS on EAS |
-| `npm run build:preview` | Preview build on EAS |
-| `npm run build:production` | Production store build on EAS |
-| `npm run clean` | Remove `.expo` and `node_modules` |
-| `npx eas-cli submit --platform android --profile production` | Upload the latest production AAB to Google Play (internal track) |
+## Get a fresh project
 
-## Submit to Google Play
-
-1. Place a Play Console service account JSON key at `google-play-service-account.json` (gitignored).
-2. Build a store AAB:
+When you're ready, run:
 
 ```bash
-npm run build:production
+npm run reset-project
 ```
 
-3. Submit it:
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-```bash
-npx eas-cli submit --platform android --profile production
-```
+### Other setup steps
 
-This uses the `production` submit profile in `eas.json` (internal track, `completed` release status). Promote the build in [Play Console](https://play.google.com/console) when ready for wider release.
+- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
+- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
+- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
 
-## License
+## Learn more
 
-See [LICENSE.md](LICENSE.md). Privacy policy: [PRIVACY.md](PRIVACY.md).
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
