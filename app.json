@@ -20,7 +20,7 @@
         "backgroundColor": "#ffffff"
       },
       "package": "com.awis.app",
-      "versionCode": 14
+      "versionCode": 15
     },
     "web": {
       "bundler": "metro",
