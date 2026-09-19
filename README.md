@@ -22,6 +22,12 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npx eas-cli build --profile development --platform android
    ```
 
+4. Build a production Android app and submit it to Play Console
+
+   ```bash
+   npx eas-cli build --profile production --platform android --auto-submit
+   ```
+
 In the output, you'll find options to open the app in a
 
 - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
